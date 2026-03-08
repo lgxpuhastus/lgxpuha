@@ -58,13 +58,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${title} | LGX Puhastus`,
       description,
-      url: `https://lgxpuhastus.ee/${locale}/services/${slug}`,
+      url: `https://lgxpuhastus.com/${locale}/services/${slug}`,
       siteName: 'LGX Puhastus',
       locale: localeMap[locale] || 'en_EE',
       type: 'website',
     },
     alternates: {
-      canonical: `https://lgxpuhastus.ee/${locale}/services/${slug}`,
+      canonical: `https://lgxpuhastus.com/${locale}/services/${slug}`,
     },
   };
 }
@@ -130,19 +130,19 @@ export default async function ServicePage({ params }: Props) {
         '@type': 'ListItem',
         position: 1,
         name: tCommon('home'),
-        item: `https://lgxpuhastus.ee/${locale}`,
+        item: `https://lgxpuhastus.com/${locale}`,
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: t('pageTitle'),
-        item: `https://lgxpuhastus.ee/${locale}/services`,
+        item: `https://lgxpuhastus.com/${locale}/services`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: title,
-        item: `https://lgxpuhastus.ee/${locale}/services/${slug}`,
+        item: `https://lgxpuhastus.com/${locale}/services/${slug}`,
       },
     ],
   };

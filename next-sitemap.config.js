@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://lgxpuhastus.ee',
+  siteUrl: 'https://lgxpuhastus.com',
   generateRobotsTxt: true,
   generateIndexSitemap: true,
   outDir: 'public',

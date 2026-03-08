@@ -16,7 +16,7 @@ interface SchemaOrgProps {
 }
 
 export default function SchemaOrg({ locale, translations }: SchemaOrgProps) {
-  const baseUrl = 'https://lgxpuhastus.ee';
+  const baseUrl = 'https://lgxpuhastus.com';
   const canonicalUrl = locale === 'et' ? baseUrl : `${baseUrl}/${locale}`;
 
   const localBusinessSchema = {

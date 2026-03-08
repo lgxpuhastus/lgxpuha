@@ -27,7 +27,7 @@ export async function generateMetadata({
   const messages = await getMessages();
   const t = messages.metadata as Record<string, string>;
 
-  const baseUrl = 'https://lgxpuhastus.ee';
+  const baseUrl = 'https://lgxpuhastus.com';
 
   // Generate alternate links for hreflang
   const languages: Record<string, string> = {};

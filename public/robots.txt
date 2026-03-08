@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://lgxpuhastus.ee
+Host: https://lgxpuhastus.com
 
 # Sitemaps
-Sitemap: https://lgxpuhastus.ee/sitemap.xml
+Sitemap: https://lgxpuhastus.com/sitemap.xml
