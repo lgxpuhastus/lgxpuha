@@ -239,22 +239,22 @@
       "title": "Hinnat",
       "discountNote": "Alennushinnat kanta-asiakkaille (viikoittainen/kahden viikon välein).",
       "regular": {
-        "studio": { "type": "Yksiö", "price": "alkaen 70 EUR" },
-        "1bed": { "type": "1 makuuhuone", "price": "alkaen 80 EUR" },
+        "studio": { "type": "Yksiö", "price": "alkaen 60 EUR" },
+        "1bed": { "type": "1 makuuhuone", "price": "alkaen 75 EUR" },
         "2bed": { "type": "2 makuuhuonetta", "price": "alkaen 90 EUR" },
         "3bed": { "type": "3 makuuhuonetta", "price": "alkaen 105 EUR" },
         "house": { "type": "Talo", "price": "alkaen 120 EUR" }
       },
       "deep": {
-        "studio": { "type": "Yksiö", "price": "alkaen 120 EUR" },
-        "1bed": { "type": "1 makuuhuone", "price": "alkaen 150 EUR" },
+        "studio": { "type": "Yksiö", "price": "alkaen 100 EUR" },
+        "1bed": { "type": "1 makuuhuone", "price": "alkaen 120 EUR" },
         "2bed": { "type": "2 makuuhuonetta", "price": "alkaen 180 EUR" },
         "3bed": { "type": "3 makuuhuonetta", "price": "alkaen 220 EUR" },
         "house": { "type": "Talo", "price": "alkaen 260 EUR" }
       },
       "moveOut": {
-        "studio": { "type": "Yksiö", "price": "alkaen 150 EUR" },
-        "1bed": { "type": "1 makuuhuone", "price": "alkaen 180 EUR" },
+        "studio": { "type": "Yksiö", "price": "alkaen 120 EUR" },
+        "1bed": { "type": "1 makuuhuone", "price": "alkaen 150 EUR" },
         "2bed": { "type": "2 makuuhuonetta", "price": "alkaen 220 EUR" },
         "3bed": { "type": "3 makuuhuonetta", "price": "alkaen 260 EUR" },
         "house": { "type": "Talo", "price": "alkaen 320 EUR" }

@@ -241,22 +241,22 @@
       "title": "Hinnad",
       "discountNote": "Soodushinnad püsiklientidele (iganädalane/kahenädalane).",
       "regular": {
-        "studio": { "type": "Stuudio", "price": "alates 70 EUR" },
-        "1bed": { "type": "1-toaline", "price": "alates 80 EUR" },
+        "studio": { "type": "Stuudio", "price": "alates 60 EUR" },
+        "1bed": { "type": "1-toaline", "price": "alates 75 EUR" },
         "2bed": { "type": "2-toaline", "price": "alates 90 EUR" },
         "3bed": { "type": "3-toaline", "price": "alates 105 EUR" },
         "house": { "type": "Maja", "price": "alates 120 EUR" }
       },
       "deep": {
-        "studio": { "type": "Stuudio", "price": "alates 120 EUR" },
-        "1bed": { "type": "1-toaline", "price": "alates 150 EUR" },
+        "studio": { "type": "Stuudio", "price": "alates 100 EUR" },
+        "1bed": { "type": "1-toaline", "price": "alates 120 EUR" },
         "2bed": { "type": "2-toaline", "price": "alates 180 EUR" },
         "3bed": { "type": "3-toaline", "price": "alates 220 EUR" },
         "house": { "type": "Maja", "price": "alates 260 EUR" }
       },
       "moveOut": {
-        "studio": { "type": "Stuudio", "price": "alates 150 EUR" },
-        "1bed": { "type": "1-toaline", "price": "alates 180 EUR" },
+        "studio": { "type": "Stuudio", "price": "alates 120 EUR" },
+        "1bed": { "type": "1-toaline", "price": "alates 150 EUR" },
         "2bed": { "type": "2-toaline", "price": "alates 220 EUR" },
         "3bed": { "type": "3-toaline", "price": "alates 260 EUR" },
         "house": { "type": "Maja", "price": "alates 320 EUR" }

@@ -241,22 +241,22 @@
       "title": "Pricing",
       "discountNote": "Discounted rates available for regular clients (weekly/bi-weekly).",
       "regular": {
-        "studio": { "type": "Studio", "price": "from 70 EUR" },
-        "1bed": { "type": "1 Bedroom", "price": "from 80 EUR" },
+        "studio": { "type": "Studio", "price": "from 60 EUR" },
+        "1bed": { "type": "1 Bedroom", "price": "from 75 EUR" },
         "2bed": { "type": "2 Bedroom", "price": "from 90 EUR" },
         "3bed": { "type": "3 Bedroom", "price": "from 105 EUR" },
         "house": { "type": "House", "price": "from 120 EUR" }
       },
       "deep": {
-        "studio": { "type": "Studio", "price": "from 120 EUR" },
-        "1bed": { "type": "1 Bedroom", "price": "from 150 EUR" },
+        "studio": { "type": "Studio", "price": "from 100 EUR" },
+        "1bed": { "type": "1 Bedroom", "price": "from 120 EUR" },
         "2bed": { "type": "2 Bedroom", "price": "from 180 EUR" },
         "3bed": { "type": "3 Bedroom", "price": "from 220 EUR" },
         "house": { "type": "House", "price": "from 260 EUR" }
       },
       "moveOut": {
-        "studio": { "type": "Studio", "price": "from 150 EUR" },
-        "1bed": { "type": "1 Bedroom", "price": "from 180 EUR" },
+        "studio": { "type": "Studio", "price": "from 120 EUR" },
+        "1bed": { "type": "1 Bedroom", "price": "from 150 EUR" },
         "2bed": { "type": "2 Bedroom", "price": "from 220 EUR" },
         "3bed": { "type": "3 Bedroom", "price": "from 260 EUR" },
         "house": { "type": "House", "price": "from 320 EUR" }
@@ -288,7 +288,7 @@
   },
   "pricing": {
     "metaTitle": "Pricing",
-    "metaDescription": "Transparent, flat-rate pricing for all our cleaning services. No hidden fees. Regular cleaning from 70 EUR, deep cleaning from 120 EUR.",
+    "metaDescription": "Transparent, flat-rate pricing for all our cleaning services. No hidden fees. Regular cleaning from 60 EUR, deep cleaning from 100 EUR.",
     "pageTitle": "Simple, Transparent Pricing",
     "pageDescription": "No hidden fees, no surprises. Our flat-rate pricing makes it easy to know exactly what you will pay.",
     "regularCleaning": "Regular Cleaning",

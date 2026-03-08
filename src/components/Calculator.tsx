@@ -5,8 +5,8 @@ import { Calculator as CalcIcon, MessageCircle } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 const propertyData = [
-  { value: 'studio', regularPrice: 70, deepPrice: 120, movePrice: 150 },
-  { value: '1bed', regularPrice: 80, deepPrice: 150, movePrice: 180 },
+  { value: 'studio', regularPrice: 60, deepPrice: 100, movePrice: 120 },
+  { value: '1bed', regularPrice: 75, deepPrice: 120, movePrice: 150 },
   { value: '2bed', regularPrice: 90, deepPrice: 180, movePrice: 220 },
   { value: '3bed', regularPrice: 105, deepPrice: 220, movePrice: 260 },
   { value: 'house', regularPrice: 120, deepPrice: 260, movePrice: 320 },
