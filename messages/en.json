@@ -1,0 +1,531 @@
+{
+  "schema": {
+    "businessDescription": "Professional cleaning services in Tallinn and Harjumaa. Regular cleaning, deep cleaning, move in/out cleaning, office cleaning, and more.",
+    "serviceType": "Cleaning Service",
+    "offerCatalogName": "Cleaning Services",
+    "regularCleaningName": "Regular Home Cleaning",
+    "regularCleaningDescription": "Professional maintenance cleaning to keep your home fresh and comfortable.",
+    "deepCleaningName": "Deep Cleaning",
+    "deepCleaningDescription": "Detailed cleaning for homes that need extra care.",
+    "moveOutCleaningName": "Move In/Out Cleaning",
+    "moveOutCleaningDescription": "Comprehensive cleaning for empty homes before moving in or after moving out."
+  },
+  "metadata": {
+    "title": "LGX Puhastus | Professional Cleaning Services in Tallinn",
+    "description": "Your home in caring hands. Professional cleaning services in Tallinn and Harjumaa. Regular cleaning, deep cleaning, move in/out cleaning, and more."
+  },
+  "navigation": {
+    "services": "Services",
+    "pricing": "Pricing",
+    "calculator": "Calculator",
+    "about": "About",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "common": {
+    "getQuote": "Get a Quote",
+    "whatsappUs": "WhatsApp Us",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "viewAllServices": "View All Services",
+    "sendMessage": "Send Message",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "contactUs": "Contact Us",
+    "backToServices": "Back to Services",
+    "home": "Home",
+    "from": "from",
+    "eur": "EUR"
+  },
+  "footer": {
+    "companyDescription": "Your home in caring hands. Professional cleaning services in Tallinn and Harjumaa.",
+    "services": "Services",
+    "company": "Company",
+    "businessHours": "Business Hours",
+    "legal": "Legal",
+    "weekdays": "Monday - Friday: 8:00 - 18:00",
+    "weekends": "Weekends: By arrangement",
+    "copyright": "© {year} LGX Puhastus OÜ. All rights reserved.",
+    "websiteBy": "Website by",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "aboutUs": "About Us",
+    "pricing": "Pricing",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "contact": "Contact",
+    "location": "Tallinn, Estonia",
+    "regularCleaning": "Regular Cleaning",
+    "deepCleaning": "Deep Cleaning",
+    "moveOutCleaning": "Move In/Out Cleaning",
+    "officeCleaning": "Office Cleaning"
+  },
+  "home": {
+    "heroTitle": "Your home, in caring hands",
+    "heroDescription": "Professional cleaning services in Tallinn and Harjumaa. We treat your home with the same care as our own.",
+    "servicesTitle": "Our Services",
+    "servicesDescription": "From regular maintenance to deep cleaning, we have a service for every need.",
+    "howItWorks": "How It Works",
+    "howItWorksDescription": "Getting your home cleaned is simple and straightforward.",
+    "testimonialsTitle": "What Our Clients Say",
+    "testimonialsDescription": "Trusted by homeowners across Tallinn.",
+    "faqTitle": "Frequently Asked Questions",
+    "ctaTitle": "Ready to enjoy a cleaner home?",
+    "ctaDescription": "Moving out soon? We often accommodate last-minute requests."
+  },
+  "trustSignals": {
+    "since": "Since 2024",
+    "servingTallinn": "Serving Tallinn",
+    "happyClients": "Happy Clients",
+    "googleRating": "Google Rating",
+    "satisfaction": "Satisfaction"
+  },
+  "steps": {
+    "step1": {
+      "title": "Get in Touch",
+      "description": "Contact us via WhatsApp, phone, or our contact form."
+    },
+    "step2": {
+      "title": "Receive a Quote",
+      "description": "We will provide you with a clear, fair price for your cleaning needs."
+    },
+    "step3": {
+      "title": "Schedule Your Cleaning",
+      "description": "Choose a date and time that works best for you."
+    },
+    "step4": {
+      "title": "Enjoy Your Clean Home",
+      "description": "Relax while we take care of the cleaning for you."
+    }
+  },
+  "services": {
+    "metaTitle": "Our Cleaning Services",
+    "metaDescription": "Professional cleaning services in Tallinn. Regular cleaning, deep cleaning, move in/out cleaning, office cleaning, upholstery cleaning, and window cleaning.",
+    "pageTitle": "Our Cleaning Services",
+    "pageDescription": "From regular maintenance to specialized cleaning, we have a service for every need. All services include professional equipment and eco-friendly products.",
+    "ctaTitle": "Not sure which service you need?",
+    "ctaDescription": "Contact us and we will help you choose the right cleaning service for your home.",
+    "regular": {
+      "title": "Regular Cleaning",
+      "description": "Professional maintenance cleaning to keep your home consistently fresh and comfortable.",
+      "longDescription": "Professional maintenance cleaning designed to keep your home consistently fresh, clean, and comfortable. Our regular cleaning service is perfect for busy families and professionals who want to maintain a clean home without the hassle. We bring all supplies and equipment, so you can simply relax while we take care of everything.",
+      "perfectFor": "Perfect for weekly or bi-weekly home maintenance. Most popular among busy professionals and families in Tallinn."
+    },
+    "deep": {
+      "title": "Deep Cleaning",
+      "description": "Detailed cleaning for homes that need extra care or have not been professionally cleaned recently.",
+      "longDescription": "A detailed cleaning service recommended for homes that require extra care or have not been professionally cleaned recently. Our deep cleaning service goes beyond the surface to ensure every corner of your home is thoroughly cleaned. This is the perfect choice if you are moving into a new place, preparing for guests, or simply want a fresh start.",
+      "perfectFor": "Ideal for seasonal cleaning, first-time service, or preparing your home for special occasions."
+    },
+    "moveOut": {
+      "title": "Move In/Out Cleaning",
+      "description": "Comprehensive cleaning designed for empty homes before moving in or after moving out.",
+      "longDescription": "A comprehensive cleaning designed for empty homes before moving in or after moving out. This service ensures your property is spotless for the next occupant or ready to welcome you to your new home. Our move-out cleaning meets the standards expected by landlords and property managers in Tallinn, helping you protect your deposit.",
+      "perfectFor": "Recommended for tenants, landlords, and property managers. Help protect your deposit with professional cleaning.",
+      "additionalContent": {
+        "title": "Why Professional Move-Out Cleaning Matters in Tallinn",
+        "intro": "Moving out of a rental apartment in Tallinn can be stressful, especially when your deposit is on the line. Many landlords in Estonia require the property to be returned in the same condition it was received, which often means professional-level cleaning.",
+        "depositTitle": "Protect Your Deposit",
+        "depositText": "We understand that getting your full deposit back matters. Our thorough move-out cleaning service is designed to meet the standards expected by landlords and property management companies in Tallinn and Harjumaa. We pay attention to the details that landlords check: limescale on taps, grease in the oven, dust in cabinets, and more.",
+        "checklistTitle": "What Landlords Look For",
+        "checklistIntro": "Based on our experience working with tenants across Tallinn, here are the most common areas landlords inspect:",
+        "checklistItems": [
+          "Kitchen appliances (inside oven, refrigerator, microwave)",
+          "Bathroom fixtures (limescale on taps, shower glass, toilet)",
+          "Cabinet interiors (kitchen and wardrobes)",
+          "Window cleanliness",
+          "Floor condition",
+          "Wall marks and scuffs"
+        ],
+        "rendinTitle": "Avoid Disputes with Rendin and Landlords",
+        "rendinText": "If you are renting through Rendin or a similar service, professional cleaning documentation can help resolve any disputes about the property condition. We provide thorough cleaning that meets professional standards."
+      },
+      "faq": {
+        "deposit": {
+          "question": "Will this cleaning help me get my deposit back?",
+          "answer": "Our move-out cleaning is designed to meet the standards landlords expect. While we cannot guarantee deposit return (that depends on your landlord and lease terms), our thorough cleaning addresses all the common issues landlords check."
+        },
+        "booking": {
+          "question": "How far in advance should I book?",
+          "answer": "We recommend booking at least 3-5 days in advance. However, we often accommodate last-minute requests if our schedule allows."
+        },
+        "satisfaction": {
+          "question": "What if my landlord is not satisfied?",
+          "answer": "Customer satisfaction is our priority. If any issues are raised within 24 hours of cleaning, we will return to address them at no additional cost."
+        },
+        "oven": {
+          "question": "Do you clean the oven inside?",
+          "answer": "Yes, interior appliance cleaning is included in our move-out service. We clean inside the oven, refrigerator, and microwave."
+        }
+      }
+    },
+    "office": {
+      "title": "Office Cleaning",
+      "description": "Reliable cleaning services for offices and small commercial spaces.",
+      "longDescription": "Reliable cleaning services for offices and small commercial spaces. Keep your workspace professional, clean, and welcoming for your employees and clients. A clean office improves productivity, makes a great impression on visitors, and contributes to a healthier work environment.",
+      "perfectFor": "Perfect for maintaining a professional workspace. Flexible scheduling available for daily, weekly, or monthly service."
+    },
+    "upholstery": {
+      "title": "Upholstery Cleaning",
+      "description": "Professional deep cleaning for sofas, armchairs, and other upholstered furniture.",
+      "longDescription": "Professional deep cleaning for sofas, armchairs, and other upholstered furniture to remove dirt, stains and odors. Over time, upholstered furniture accumulates dust, allergens, and stains that regular vacuuming cannot remove. Our professional cleaning restores your furniture to its original freshness and extends its lifespan.",
+      "perfectFor": "Contact us for a personalized quote based on your furniture type and condition."
+    },
+    "window": {
+      "title": "Window Cleaning",
+      "description": "Professional window cleaning service for crystal clear views.",
+      "longDescription": "Professional window cleaning service for crystal clear views. We ensure streak-free, sparkling clean windows that let the light shine through. Clean windows make a significant difference in how bright and welcoming your space feels.",
+      "perfectFor": "Contact us for a personalized quote based on the number and size of windows."
+    },
+    "includes": {
+      "title": "What is Included",
+      "regular": [
+        "Dusting and cleaning all accessible surfaces",
+        "Vacuuming and mopping all floors",
+        "Bathroom cleaning (toilet, sink, shower area)",
+        "Kitchen surface and appliance exterior cleaning",
+        "Mirror and glass cleaning",
+        "General dust removal",
+        "Trash removal and bin cleaning"
+      ],
+      "deep": [
+        "Everything in Regular Cleaning",
+        "Cleaning inside cabinets and drawers",
+        "Interior cleaning of kitchen appliances (oven, microwave, refrigerator)",
+        "Detailed bathroom cleaning with limescale removal",
+        "Cleaning behind and under furniture where accessible",
+        "Cleaning reachable wall areas when necessary",
+        "Thorough cleaning of all surfaces including baseboards",
+        "Light fixture and ceiling fan dusting"
+      ],
+      "moveOut": [
+        "Cleaning inside and outside of cabinets and drawers",
+        "Interior appliance cleaning (oven, refrigerator, microwave)",
+        "Full bathroom descaling and sanitizing",
+        "Limescale removal from taps and showerheads",
+        "Vacuuming and mopping all floors",
+        "Cleaning reachable wall areas if needed",
+        "Interior window cleaning",
+        "Cleaning all surfaces, mirrors, and light switches",
+        "Removal of dust from all corners and edges"
+      ],
+      "office": [
+        "Desk and surface cleaning",
+        "Floor vacuuming and mopping",
+        "Bathroom and kitchen area cleaning",
+        "Mirror and glass cleaning",
+        "Trash removal and bin cleaning",
+        "General dusting of all surfaces",
+        "Door handle and light switch sanitizing"
+      ],
+      "upholstery": [
+        "Deep fabric cleaning and extraction",
+        "Stain removal treatment",
+        "Odor elimination",
+        "Allergen removal",
+        "Fabric protection treatment (upon request)"
+      ],
+      "window": [
+        "Interior window glass cleaning",
+        "Frame and sill cleaning",
+        "Streak-free finish",
+        "Screen cleaning (upon request)",
+        "Hard water stain removal"
+      ]
+    },
+    "pricing": {
+      "title": "Pricing",
+      "discountNote": "Discounted rates available for regular clients (weekly/bi-weekly).",
+      "regular": {
+        "studio": { "type": "Studio", "price": "from 70 EUR" },
+        "1bed": { "type": "1 Bedroom", "price": "from 80 EUR" },
+        "2bed": { "type": "2 Bedroom", "price": "from 90 EUR" },
+        "3bed": { "type": "3 Bedroom", "price": "from 105 EUR" },
+        "house": { "type": "House", "price": "from 120 EUR" }
+      },
+      "deep": {
+        "studio": { "type": "Studio", "price": "from 120 EUR" },
+        "1bed": { "type": "1 Bedroom", "price": "from 150 EUR" },
+        "2bed": { "type": "2 Bedroom", "price": "from 180 EUR" },
+        "3bed": { "type": "3 Bedroom", "price": "from 220 EUR" },
+        "house": { "type": "House", "price": "from 260 EUR" }
+      },
+      "moveOut": {
+        "studio": { "type": "Studio", "price": "from 150 EUR" },
+        "1bed": { "type": "1 Bedroom", "price": "from 180 EUR" },
+        "2bed": { "type": "2 Bedroom", "price": "from 220 EUR" },
+        "3bed": { "type": "3 Bedroom", "price": "from 260 EUR" },
+        "house": { "type": "House", "price": "from 320 EUR" }
+      },
+      "office": {
+        "small": { "type": "Small Office", "price": "Contact us" },
+        "medium": { "type": "Medium Office", "price": "Contact us" },
+        "large": { "type": "Large Office", "price": "Contact us" }
+      },
+      "upholstery": {
+        "sofa2": { "type": "Sofa (2-seater)", "price": "Contact us" },
+        "sofa3": { "type": "Sofa (3-seater)", "price": "Contact us" },
+        "armchair": { "type": "Armchair", "price": "Contact us" },
+        "mattress": { "type": "Mattress", "price": "Contact us" }
+      },
+      "window": {
+        "perWindow": { "type": "Per window", "price": "Contact us" },
+        "apartment": { "type": "Full apartment", "price": "Contact us" },
+        "house": { "type": "House", "price": "Contact us" }
+      }
+    },
+    "detail": {
+      "whatIsIncluded": "What is Included",
+      "pricing": "Pricing",
+      "faq": "Frequently Asked Questions",
+      "ctaTitle": "Ready to book your cleaning?",
+      "ctaDescription": "Moving out soon? We often accommodate last-minute requests."
+    }
+  },
+  "pricing": {
+    "metaTitle": "Pricing",
+    "metaDescription": "Transparent, flat-rate pricing for all our cleaning services. No hidden fees. Regular cleaning from 70 EUR, deep cleaning from 120 EUR.",
+    "pageTitle": "Simple, Transparent Pricing",
+    "pageDescription": "No hidden fees, no surprises. Our flat-rate pricing makes it easy to know exactly what you will pay.",
+    "regularCleaning": "Regular Cleaning",
+    "deepCleaning": "Deep Cleaning",
+    "moveOutCleaning": "Move In/Out Cleaning",
+    "goodToKnow": "Good to know",
+    "goodToKnowItems": [
+      "Discounted rates for regular clients (weekly/bi-weekly bookings)",
+      "Final price may vary based on property size and condition",
+      "All prices include professional cleaning products and equipment",
+      "We accept bank transfer and cash payments"
+    ],
+    "otherServices": "Other Services",
+    "otherServicesDescription": "For office cleaning, upholstery cleaning, and window cleaning, please contact us for a personalized quote.",
+    "usePriceCalculator": "Use Price Calculator",
+    "ctaTitle": "Get your exact quote today",
+    "ctaDescription": "Use our calculator for an instant estimate or contact us directly.",
+    "useCalculator": "Use Calculator",
+    "propertyTypes": {
+      "studio": "Studio",
+      "1bed": "1 Bedroom",
+      "2bed": "2 Bedroom",
+      "3bed": "3 Bedroom",
+      "house": "House"
+    },
+    "discountNote": "Discounted rates available for regular clients (weekly/bi-weekly)."
+  },
+  "about": {
+    "metaTitle": "About Us",
+    "metaDescription": "Learn about LGX Puhastus, a professional cleaning company in Tallinn founded by Ana in 2024. Your home in caring hands.",
+    "pageTitle": "About LGX Puhastus",
+    "pageDescription": "Your home in caring hands. We are a professional cleaning company serving Tallinn and Harjumaa since 2024.",
+    "ourStory": "Our Story",
+    "storyParagraph1": "LGX Puhastus was founded by Ana, a Brazilian who moved to Tallinn with a passion for creating clean, welcoming spaces. After working in the cleaning industry and seeing a need for more personal, trustworthy service, she decided to start her own company in 2024.",
+    "storyParagraph2": "Our philosophy is simple: we treat every home as if it were our own. We understand that when you give someone your keys, you are placing a lot of trust in them. We take that responsibility seriously.",
+    "storyParagraph3": "Today, we serve families, professionals, and property managers across Tallinn and the surrounding Harjumaa region. Our clients come back to us because they know they can count on consistent, high-quality cleaning with a personal touch.",
+    "ourValues": "Our Values",
+    "valuesDescription": "Everything we do is guided by these core principles.",
+    "values": {
+      "trust": {
+        "title": "Trust",
+        "description": "We understand that inviting someone into your home requires trust. We treat every home with respect and integrity."
+      },
+      "care": {
+        "title": "Care",
+        "description": "We clean your home as if it were our own. Every detail matters because your comfort matters to us."
+      },
+      "attention": {
+        "title": "Attention to Detail",
+        "description": "We believe great cleaning is in the details. Nothing is overlooked, nothing is rushed."
+      }
+    },
+    "companyInfo": "Company Information",
+    "companyName": "Company Name",
+    "registrationNumber": "Registration Number",
+    "location": "Location",
+    "serviceArea": "Service Area",
+    "ctaTitle": "Ready to experience the difference?",
+    "ctaDescription": "Let us show you what caring hands can do for your home."
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageDescription": "Ready to book a cleaning or have questions? We are here to help. Reach out to us and we will get back to you within 24 hours.",
+    "sendUsMessage": "Send us a message",
+    "contactInfo": "Contact Information",
+    "whatsapp": "WhatsApp",
+    "clickToChat": "Click to chat with us",
+    "servingArea": "Serving Tallinn and Harjumaa",
+    "businessHours": "Business Hours",
+    "movingOutSoon": "Moving out soon?",
+    "movingOutDescription": "We often accommodate last-minute requests. Contact us via WhatsApp for the fastest response.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+372 XXXX XXXX",
+      "serviceType": "Service Type",
+      "selectService": "Select a service",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your cleaning needs...",
+      "sendMessage": "Send Message",
+      "sending": "Sending...",
+      "thankYou": "Thank you!",
+      "willReply": "We will get back to you within 24 hours."
+    },
+    "serviceTypes": {
+      "regular": "Regular Cleaning",
+      "deep": "Deep Cleaning",
+      "moveOut": "Move In/Out Cleaning",
+      "office": "Office Cleaning",
+      "upholstery": "Upholstery Cleaning",
+      "window": "Window Cleaning",
+      "other": "Other"
+    }
+  },
+  "gallery": {
+    "pageTitle": "Our Work",
+    "pageDescription": "Real results from real homes. See the difference professional cleaning makes.",
+    "beforeAfter": "Before & After",
+    "videoTransformations": "Video Transformations",
+    "ctaTitle": "Ready for your transformation?",
+    "ctaDescription": "Let us bring the same level of care and attention to your home.",
+    "images": {
+      "bathroomSink": {
+        "title": "Bathroom Sink",
+        "description": "Deep cleaned and organized"
+      },
+      "stovetop": {
+        "title": "Stovetop",
+        "description": "Grease and grime removed"
+      },
+      "desk": {
+        "title": "Office Desk",
+        "description": "Dust-free and spotless"
+      },
+      "showerFaucet": {
+        "title": "Shower Faucet",
+        "description": "Limescale removed, chrome restored"
+      }
+    }
+  },
+  "calculator": {
+    "metaTitle": "Price Calculator",
+    "metaDescription": "Get an instant cleaning quote for your home in Tallinn. Select your property type and service to see estimated pricing.",
+    "pageTitle": "Price Calculator",
+    "pageDescription": "Get an instant estimate for your cleaning needs. Select your property type and service to see pricing.",
+    "title": "Price Calculator",
+    "propertyType": "Property Type",
+    "selectPropertyType": "Select property type",
+    "serviceType": "Service Type",
+    "selectServiceType": "Select service type",
+    "estimatedPrice": "Estimated Price",
+    "priceNote": "Final price may vary based on property condition",
+    "getExactQuote": "Get an exact quote",
+    "yourName": "Your name",
+    "yourEmail": "Your email",
+    "yourPhone": "Your phone",
+    "getExactQuoteWhatsApp": "Get Exact Quote via WhatsApp",
+    "howPricingWorks": "How Our Pricing Works",
+    "pricingFeatures": {
+      "flatRate": {
+        "title": "Flat-Rate Pricing",
+        "description": "Our prices are based on property size and service type, not hourly rates. You know what you pay upfront."
+      },
+      "discounts": {
+        "title": "Discounts for Regular Clients",
+        "description": "Book weekly or bi-weekly cleanings and enjoy discounted rates for your ongoing service."
+      },
+      "allInclusive": {
+        "title": "All-Inclusive Service",
+        "description": "Our team brings all professional cleaning products and equipment. No additional costs."
+      },
+      "customQuotes": {
+        "title": "Custom Quotes Available",
+        "description": "For special requests or unique properties, contact us for a personalized quote."
+      }
+    },
+    "needMoreInfo": "Need more information about our services?",
+    "seeFullPricing": "See Full Pricing",
+    "whatsappMessage": "Hi! I am interested in {service} for my {property}. Estimated price: from {price} EUR.",
+    "propertyTypes": {
+      "studio": "Studio",
+      "1bed": "1 Bedroom",
+      "2bed": "2 Bedroom",
+      "3bed": "3 Bedroom",
+      "house": "House"
+    },
+    "serviceTypes": {
+      "regular": "Regular Cleaning",
+      "deep": "Deep Cleaning",
+      "move": "Move In/Out Cleaning"
+    }
+  },
+  "faq": {
+    "questions": {
+      "supplies": {
+        "question": "Do I need to provide cleaning supplies?",
+        "answer": "No. Our team brings all professional cleaning products and equipment."
+      },
+      "duration": {
+        "question": "How long does a cleaning service take?",
+        "answer": "It depends on the size and condition of the property. Most regular cleanings take between 2 to 4 hours."
+      },
+      "presence": {
+        "question": "Do I need to be home during the cleaning?",
+        "answer": "No, many of our clients provide access to the property while they are away. We are trusted by homeowners across Tallinn."
+      },
+      "booking": {
+        "question": "How can I book a cleaning?",
+        "answer": "You can contact us through WhatsApp, phone or our website contact form. We typically respond within a few hours."
+      },
+      "areas": {
+        "question": "What areas do you serve?",
+        "answer": "We provide cleaning services in Tallinn and Harjumaa, including all districts of the city."
+      },
+      "payment": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept bank transfer and cash payments."
+      },
+      "satisfaction": {
+        "question": "What if I am not satisfied with the cleaning?",
+        "answer": "Customer satisfaction is very important to us. If you are not satisfied with any part of the service, please contact us within 24 hours and we will return to correct the issue at no additional cost."
+      }
+    }
+  },
+  "testimonials": {
+    "testimonial1": {
+      "name": "Maria K.",
+      "text": "Ana and her team did an amazing job with our move-out cleaning. The apartment looked better than when we moved in. Highly recommend!",
+      "location": "Kesklinn, Tallinn"
+    },
+    "testimonial2": {
+      "name": "Johan S.",
+      "text": "We use LGX Puhastus for weekly cleaning and the consistency is excellent. Our home always feels fresh and welcoming.",
+      "location": "Mustamae, Tallinn"
+    },
+    "testimonial3": {
+      "name": "Elena R.",
+      "text": "Very professional and trustworthy. I feel comfortable leaving my keys with them. The attention to detail is impressive.",
+      "location": "Pirita, Tallinn"
+    }
+  },
+  "blog": {
+    "pageTitle": "Blog",
+    "pageDescription": "Cleaning tips, home maintenance advice, and updates from LGX Puhastus. Learn how to keep your Tallinn home fresh and clean.",
+    "title": "Our Blog",
+    "subtitle": "Tips, advice, and insights to help you maintain a clean and comfortable home in Tallinn.",
+    "noPosts": "No posts available yet.",
+    "readMore": "Read more",
+    "backToBlog": "Back to Blog",
+    "ctaTitle": "Need professional cleaning?",
+    "ctaText": "Let us take care of the hard work while you enjoy a clean home.",
+    "ctaButton": "Get a Quote",
+    "postCtaTitle": "Need professional cleaning help?",
+    "postCtaText": "We are here to take care of your home with the same attention and care.",
+    "postNotFound": "Post Not Found"
+  }
+}

@@ -2,18 +2,14 @@
 
 import { useState } from 'react';
 import { Send } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
-const serviceTypes = [
-  'Regular Cleaning',
-  'Deep Cleaning',
-  'Move In/Out Cleaning',
-  'Office Cleaning',
-  'Upholstery Cleaning',
-  'Window Cleaning',
-  'Other',
-];
+const serviceKeys = ['regular', 'deep', 'moveOut', 'office', 'upholstery', 'window', 'other'] as const;
 
 export default function ContactForm() {
+  const t = useTranslations('contact.form');
+  const tServices = useTranslations('contact.serviceTypes');
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -24,15 +20,39 @@ export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+  const serviceTypes = serviceKeys.map((key) => ({
+    value: key,
+    label: tServices(key),
+  }));
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    try {
+      const response = await fetch('https://formspree.io/f/xpqywepg', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          service: formData.service,
+          message: formData.message,
+          _source: 'lgxpuhastus.com',
+        }),
+      });
+      
+      if (response.ok) {
+        setIsSubmitted(true);
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+    }
     
     setIsSubmitting(false);
-    setIsSubmitted(true);
   };
 
   if (isSubmitted) {
@@ -41,8 +61,8 @@ export default function ContactForm() {
         <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4">
           <Send className="h-8 w-8 text-green-600" />
         </div>
-        <h3 className="text-xl font-semibold text-sage-900 mb-2">Thank you!</h3>
-        <p className="text-sage-600">We will get back to you within 24 hours.</p>
+        <h3 className="text-xl font-semibold text-sage-900 mb-2">{t('thankYou')}</h3>
+        <p className="text-sage-600">{t('willReply')}</p>
       </div>
     );
   }
@@ -51,7 +71,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-6">
       <div>
         <label htmlFor="name" className="block text-sm font-medium text-sage-700 mb-2">
-          Name
+          {t('name')}
         </label>
         <input
           type="text"
@@ -60,13 +80,13 @@ export default function ContactForm() {
           value={formData.name}
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
           className="w-full px-4 py-3 border border-sage-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-colors"
-          placeholder="Your name"
+          placeholder={t('namePlaceholder')}
         />
       </div>
 
       <div>
         <label htmlFor="email" className="block text-sm font-medium text-sage-700 mb-2">
-          Email
+          {t('email')}
         </label>
         <input
           type="email"
@@ -75,13 +95,13 @@ export default function ContactForm() {
           value={formData.email}
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
           className="w-full px-4 py-3 border border-sage-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-colors"
-          placeholder="your@email.com"
+          placeholder={t('emailPlaceholder')}
         />
       </div>
 
       <div>
         <label htmlFor="phone" className="block text-sm font-medium text-sage-700 mb-2">
-          Phone
+          {t('phone')}
         </label>
         <input
           type="tel"
@@ -90,13 +110,13 @@ export default function ContactForm() {
           value={formData.phone}
           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
           className="w-full px-4 py-3 border border-sage-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-colors"
-          placeholder="+372 XXXX XXXX"
+          placeholder={t('phonePlaceholder')}
         />
       </div>
 
       <div>
         <label htmlFor="service" className="block text-sm font-medium text-sage-700 mb-2">
-          Service Type
+          {t('serviceType')}
         </label>
         <select
           id="service"
@@ -105,10 +125,10 @@ export default function ContactForm() {
           onChange={(e) => setFormData({ ...formData, service: e.target.value })}
           className="w-full px-4 py-3 border border-sage-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-colors"
         >
-          <option value="">Select a service</option>
+          <option value="">{t('selectService')}</option>
           {serviceTypes.map((service) => (
-            <option key={service} value={service}>
-              {service}
+            <option key={service.value} value={service.value}>
+              {service.label}
             </option>
           ))}
         </select>
@@ -116,7 +136,7 @@ export default function ContactForm() {
 
       <div>
         <label htmlFor="message" className="block text-sm font-medium text-sage-700 mb-2">
-          Message
+          {t('message')}
         </label>
         <textarea
           id="message"
@@ -124,7 +144,7 @@ export default function ContactForm() {
           value={formData.message}
           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
           className="w-full px-4 py-3 border border-sage-300 rounded-lg focus:ring-2 focus:ring-sage-500 focus:border-transparent transition-colors resize-none"
-          placeholder="Tell us about your cleaning needs..."
+          placeholder={t('messagePlaceholder')}
         />
       </div>
 
@@ -133,7 +153,7 @@ export default function ContactForm() {
         disabled={isSubmitting}
         className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        {isSubmitting ? 'Sending...' : 'Send Message'}
+        {isSubmitting ? t('sending') : t('sendMessage')}
       </button>
     </form>
   );

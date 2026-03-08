@@ -1,0 +1,523 @@
+{
+  "schema": {
+    "businessDescription": "Ammattimaiset siivouspalvelut Tallinnassa ja Harjumaalla. Säännöllinen siivous, syväpuhdistus, muuttosiivous, toimistosiivous ja paljon muuta.",
+    "serviceType": "Siivouspalvelu",
+    "offerCatalogName": "Siivouspalvelut",
+    "regularCleaningName": "Säännöllinen kodin siivous",
+    "regularCleaningDescription": "Ammattimainen ylläpitosiivous pitämään kotisi raikkaana ja mukavana.",
+    "deepCleaningName": "Syväpuhdistus",
+    "deepCleaningDescription": "Perusteellinen siivous kodeille, jotka tarvitsevat erityistä huolenpitoa.",
+    "moveOutCleaningName": "Muuttosiivous",
+    "moveOutCleaningDescription": "Perusteellinen siivous tyhjille asunnoille ennen muuttoa sisään tai ulos."
+  },
+  "metadata": {
+    "title": "LGX Puhastus | Ammattimaiset siivouspalvelut Tallinnassa",
+    "description": "Kotisi huolehtivissa käsissä. Ammattimaiset siivouspalvelut Tallinnassa ja Harjumaalla. Säännöllinen siivous, syväpuhdistus, muuttosiivous ja paljon muuta."
+  },
+  "navigation": {
+    "services": "Palvelut",
+    "pricing": "Hinnat",
+    "calculator": "Laskin",
+    "about": "Meistä",
+    "gallery": "Galleria",
+    "blog": "Blogi",
+    "contact": "Yhteystiedot"
+  },
+  "common": {
+    "getQuote": "Pyydä tarjous",
+    "whatsappUs": "WhatsApp-viesti",
+    "learnMore": "Lue lisää",
+    "viewAll": "Näytä kaikki",
+    "viewAllServices": "Näytä kaikki palvelut",
+    "sendMessage": "Lähetä viesti",
+    "submit": "Lähetä",
+    "loading": "Ladataan...",
+    "phone": "Puhelin",
+    "email": "Sähköposti",
+    "address": "Osoite",
+    "contactUs": "Ota yhteyttä",
+    "backToServices": "Takaisin palveluihin",
+    "home": "Etusivu",
+    "from": "alkaen",
+    "eur": "EUR"
+  },
+  "footer": {
+    "companyDescription": "Kotisi huolehtivissa käsissä. Ammattimaiset siivouspalvelut Tallinnassa ja Harjumaalla.",
+    "services": "Palvelut",
+    "company": "Yritys",
+    "businessHours": "Aukioloajat",
+    "legal": "Lakitiedot",
+    "weekdays": "Maanantai - Perjantai: 8:00 - 18:00",
+    "weekends": "Viikonloput: Sopimuksen mukaan",
+    "copyright": "© {year} LGX Puhastus OÜ. Kaikki oikeudet pidätetään.",
+    "websiteBy": "Verkkosivut:",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "termsOfService": "Käyttöehdot",
+    "aboutUs": "Meistä",
+    "pricing": "Hinnat",
+    "gallery": "Galleria",
+    "blog": "Blogi",
+    "contact": "Yhteystiedot",
+    "location": "Tallinna, Viro",
+    "regularCleaning": "Säännöllinen siivous",
+    "deepCleaning": "Syväpuhdistus",
+    "moveOutCleaning": "Muuttosiivous",
+    "officeCleaning": "Toimistosiivous"
+  },
+  "home": {
+    "heroTitle": "Kotisi huolehtivissa käsissä",
+    "heroDescription": "Ammattimaiset siivouspalvelut Tallinnassa ja Harjumaalla. Kohtelemme kotiasi yhtä huolellisesti kuin omaasi.",
+    "servicesTitle": "Palvelumme",
+    "servicesDescription": "Säännöllisestä ylläpidosta syväpuhdistukseen - meillä on palvelu jokaiseen tarpeeseen.",
+    "howItWorks": "Näin se toimii",
+    "howItWorksDescription": "Kodin puhdistaminen on yksinkertaista ja selkeää.",
+    "testimonialsTitle": "Mitä asiakkaamme sanovat",
+    "testimonialsDescription": "Tallinnan asunnonomistajien luottama valinta.",
+    "faqTitle": "Usein kysytyt kysymykset",
+    "ctaTitle": "Valmis nauttimaan puhtaammasta kodista?",
+    "ctaDescription": "Muutatko pian? Usein otamme vastaan myös viime hetken pyyntöjä."
+  },
+  "trustSignals": {
+    "since": "Vuodesta 2024",
+    "servingTallinn": "Palvelemme Tallinnaa",
+    "happyClients": "Tyytyväistä asiakasta",
+    "googleRating": "Google-arvosana",
+    "satisfaction": "Tyytyväisyys"
+  },
+  "steps": {
+    "step1": {
+      "title": "Ota yhteyttä",
+      "description": "Ota meihin yhteyttä WhatsAppissa, puhelimitse tai yhteydenottolomakkeella."
+    },
+    "step2": {
+      "title": "Saat tarjouksen",
+      "description": "Annamme sinulle selkeän ja reilun hinnan siivoustarpeisiisi."
+    },
+    "step3": {
+      "title": "Varaa aika",
+      "description": "Valitse sinulle sopiva päivämäärä ja kellonaika."
+    },
+    "step4": {
+      "title": "Nauti puhtaasta kodista",
+      "description": "Rentoudu, me hoidamme siivouksen puolestasi."
+    }
+  },
+  "services": {
+    "pageTitle": "Siivouspalvelumme",
+    "pageDescription": "Säännöllisestä ylläpidosta erikoissiivoukseen - meillä on palvelu jokaiseen tarpeeseen. Kaikki palvelut sisältävät ammattimaiset välineet ja ympäristöystävälliset tuotteet.",
+    "ctaTitle": "Et ole varma, mitä palvelua tarvitset?",
+    "ctaDescription": "Ota meihin yhteyttä ja autamme sinua valitsemaan oikean siivouspalvelun.",
+    "regular": {
+      "title": "Säännöllinen siivous",
+      "description": "Ammattimainen ylläpitosiivous pitämään kotisi aina raikkaana ja mukavana.",
+      "longDescription": "Ammattimainen ylläpitosiivous, joka on suunniteltu pitämään kotisi jatkuvasti raikkaana, puhtaana ja mukavana. Säännöllinen siivouspalvelumme sopii täydellisesti kiireisille perheille ja ammattilaisille, jotka haluavat ylläpitää puhdasta kotia ilman vaivaa. Tuomme kaikki tarvikkeet ja välineet mukanamme, jotta voit vain rentoutua.",
+      "perfectFor": "Täydellinen viikoittaiseen tai kahden viikon välein tapahtuvaan ylläpitoon. Suosituin Tallinnan kiireisten ammattilaisten ja perheiden keskuudessa."
+    },
+    "deep": {
+      "title": "Syväpuhdistus",
+      "description": "Perusteellinen siivous kodeille, jotka tarvitsevat erityistä huolenpitoa tai joita ei ole äskettäin ammattimaisesti puhdistettu.",
+      "longDescription": "Perusteellinen siivouspalvelu, jota suositellaan kodeille, jotka vaativat erityistä huolenpitoa tai joita ei ole äskettäin ammattimaisesti puhdistettu. Syväpuhdistuksemme ulottuu pintaa syvemmälle varmistaakseen, että kotisi jokainen nurkkaus puhdistetaan perusteellisesti. Tämä on täydellinen valinta, jos muutat uuteen paikkaan, valmistaudut vieraisiin tai haluat vain uuden alun.",
+      "perfectFor": "Ihanteellinen kausiluonteiseen puhdistukseen, ensimmäiseen kertaan tai kodin valmisteluun erityistilaisuuksia varten."
+    },
+    "moveOut": {
+      "title": "Muuttosiivous",
+      "description": "Perusteellinen siivous tyhjille asunnoille ennen muuttoa sisään tai ulos.",
+      "longDescription": "Perusteellinen siivous, joka on suunniteltu tyhjille asunnoille ennen muuttoa sisään tai ulos. Tämä palvelu varmistaa, että kiinteistösi on moitteeton seuraavaa asukasta varten tai valmis toivottamaan sinut tervetulleeksi uuteen kotiisi. Muuttosiivouksemme täyttää Tallinnan vuokranantajien ja kiinteistönhoitajien odotukset, auttaen sinua suojaamaan vakuusrahasi.",
+      "perfectFor": "Suositellaan vuokralaisille, vuokranantajille ja kiinteistönhoitajille. Suojaa vakuusrahasi ammattimaisella siivouksella.",
+      "additionalContent": {
+        "title": "Miksi ammattimainen muuttosiivous on tärkeää Tallinnassa",
+        "intro": "Vuokra-asunnosta muuttaminen Tallinnassa voi olla stressaavaa, erityisesti kun vakuusrahasi on vaakalaudalla. Monet Viron vuokranantajat vaativat, että kiinteistö palautetaan samassa kunnossa kuin se vastaanotettiin, mikä usein tarkoittaa ammattimaisen tason siivousta.",
+        "depositTitle": "Suojaa vakuusrahasi",
+        "depositText": "Ymmärrämme, että koko vakuusrahan takaisin saaminen on tärkeää. Perusteellinen muuttosiivouksemme on suunniteltu täyttämään Tallinnan ja Harjumaan vuokranantajien sekä kiinteistönhoitoyhtiöiden odotukset. Kiinnitämme huomiota yksityiskohtiin, joita vuokranantajat tarkistavat: kalkkisaostumat hanoissa, rasva uunissa, pöly kaapeissa ja paljon muuta.",
+        "checklistTitle": "Mitä vuokranantajat tarkistavat",
+        "checklistIntro": "Kokemuksemme perusteella Tallinnan vuokralaisten kanssa työskentelystä, tässä ovat yleisimmät alueet, joita vuokranantajat tarkastavat:",
+        "checklistItems": [
+          "Keittiölaitteet (uunin, jääkaapin, mikroaaltouunin sisäpuoli)",
+          "Kylpyhuoneen kalusteet (kalkkisaostumat hanoissa, suihkulasi, WC)",
+          "Kaappien sisäpuolet (keittiö ja vaatekaapit)",
+          "Ikkunoiden puhtaus",
+          "Lattioiden kunto",
+          "Seinien jäljet ja naarmut"
+        ],
+        "rendinTitle": "Vältä kiistat Rendinin ja vuokranantajien kanssa",
+        "rendinText": "Jos vuokraat Rendinin tai vastaavan palvelun kautta, ammattimaisen siivouksen dokumentaatio voi auttaa ratkaisemaan kiinteistön kuntoa koskevat kiistat. Tarjoamme perusteellista siivousta, joka täyttää ammattimaiset standardit."
+      },
+      "faq": {
+        "deposit": {
+          "question": "Auttaako tämä siivous saamaan vakuusrahani takaisin?",
+          "answer": "Muuttosiivouksemme on suunniteltu täyttämään vuokranantajien odotukset. Vaikka emme voi taata vakuusrahan palautusta (se riippuu vuokranantajastasi ja vuokrasopimuksen ehdoista), perusteellinen siivouksemme käsittelee kaikki yleisimmät ongelmat, joita vuokranantajat tarkistavat."
+        },
+        "booking": {
+          "question": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "answer": "Suosittelemme varaamaan vähintään 3-5 päivää etukäteen. Usein kuitenkin otamme vastaan myös viime hetken pyyntöjä, jos aikataulumme sallii."
+        },
+        "satisfaction": {
+          "question": "Entä jos vuokranantajani ei ole tyytyväinen?",
+          "answer": "Asiakastyytyväisyys on prioriteettimme. Jos ongelmia ilmenee 24 tunnin kuluessa siivouksesta, palaamme korjaamaan ne ilman lisäkustannuksia."
+        },
+        "oven": {
+          "question": "Puhdistatteko uunin sisäpuolen?",
+          "answer": "Kyllä, kodinkoneiden sisäpuolinen puhdistus sisältyy muuttosiivoukseemme. Puhdistamme uunin, jääkaapin ja mikroaaltouunin sisältä."
+        }
+      }
+    },
+    "office": {
+      "title": "Toimistosiivous",
+      "description": "Luotettavat siivouspalvelut toimistoille ja pienille liiketiloille.",
+      "longDescription": "Luotettavat siivouspalvelut toimistoille ja pienille liiketiloille. Pidä työtilasi ammattimaisena, puhtaana ja kutsuvana työntekijöillesi ja asiakkaillesi. Puhdas toimisto parantaa tuottavuutta, tekee hyvän vaikutuksen vierailijoihin ja edistää terveellisempää työympäristöä.",
+      "perfectFor": "Täydellinen ammattimaisen työympäristön ylläpitoon. Joustava aikataulu päivittäiseen, viikoittaiseen tai kuukausittaiseen palveluun."
+    },
+    "upholstery": {
+      "title": "Verhoilun puhdistus",
+      "description": "Ammattimainen syväpuhdistus sohville, nojatuoleille ja muille verhoilluille huonekaluille.",
+      "longDescription": "Ammattimainen syväpuhdistus sohville, nojatuoleille ja muille verhoilluille huonekaluille lian, tahrojen ja hajujen poistamiseksi. Ajan myötä verhoillut huonekalut keräävät pölyä, allergeeneja ja tahroja, joita tavallinen imurointi ei poista. Ammattimainen puhdistuksemme palauttaa huonekalujesi alkuperäisen raikkuden ja pidentää niiden käyttöikää.",
+      "perfectFor": "Ota meihin yhteyttä henkilökohtaisen tarjouksen saamiseksi huonekalutyyppisi ja kunnon perusteella."
+    },
+    "window": {
+      "title": "Ikkunanpesu",
+      "description": "Ammattimainen ikkunanpesupalvelu kristallinkirkkaiden näkymien saamiseksi.",
+      "longDescription": "Ammattimainen ikkunanpesupalvelu kristallinkirkkaiden näkymien saamiseksi. Takaamme raidalliset, kiiltävät ikkunat, jotka päästävät valon läpi. Puhtaat ikkunat tekevät merkittävän eron siihen, kuinka valoisa ja kutsuva tilasi tuntuu.",
+      "perfectFor": "Ota meihin yhteyttä henkilökohtaisen tarjouksen saamiseksi ikkunoiden määrän ja koon perusteella."
+    },
+    "includes": {
+      "title": "Mitä sisältyy",
+      "regular": [
+        "Kaikkien saavutettavien pintojen pölyjen pyyhkiminen ja puhdistus",
+        "Kaikkien lattioiden imurointi ja moppaus",
+        "Kylpyhuoneen puhdistus (WC, pesuallas, suihkualue)",
+        "Keittiön pintojen ja laitteiden ulkopintojen puhdistus",
+        "Peilien ja lasipintojen puhdistus",
+        "Yleinen pölyjen poisto",
+        "Roskasten vienti ja roskakorien puhdistus"
+      ],
+      "deep": [
+        "Kaikki säännöllisestä siivouksesta",
+        "Kaappien ja laatikoiden sisäpuolinen puhdistus",
+        "Keittiölaitteiden sisäpuolinen puhdistus (uuni, mikroaaltouuni, jääkaappi)",
+        "Perusteellinen kylpyhuoneen puhdistus kalkinpoistolla",
+        "Huonekalujen takana ja alla puhdistus, missä mahdollista",
+        "Seinäpintojen puhdistus tarvittaessa",
+        "Kaikkien pintojen perusteellinen puhdistus mukaan lukien jalkalista",
+        "Valaisimien ja kattoventilaattoreiden pölyjen pyyhkiminen"
+      ],
+      "moveOut": [
+        "Kaappien ja laatikoiden sisä- ja ulkopuolinen puhdistus",
+        "Kodinkoneiden sisäpuolinen puhdistus (uuni, jääkaappi, mikroaaltouuni)",
+        "Kylpyhuoneen täydellinen kalkinpoisto ja desinfiointi",
+        "Kalkkisaostumien poisto hanoista ja suihkupäistä",
+        "Kaikkien lattioiden imurointi ja moppaus",
+        "Seinäpintojen puhdistus tarvittaessa",
+        "Ikkunoiden sisäpuolinen puhdistus",
+        "Kaikkien pintojen, peilien ja valokatkaisijoiden puhdistus",
+        "Pölyn poisto kaikista nurkista ja reunoista"
+      ],
+      "office": [
+        "Pöytien ja pintojen puhdistus",
+        "Lattioiden imurointi ja moppaus",
+        "Kylpyhuoneen ja keittiöalueen puhdistus",
+        "Peilien ja lasipintojen puhdistus",
+        "Roskasten vienti ja roskakorien puhdistus",
+        "Kaikkien pintojen yleinen pölyjen pyyhkiminen",
+        "Ovenkahvojen ja valokatkaisijoiden desinfiointi"
+      ],
+      "upholstery": [
+        "Kankaan syväpuhdistus ja ekstrahointi",
+        "Tahranpoistokäsittely",
+        "Hajujen neutralointi",
+        "Allergeenien poisto",
+        "Kangassuojakäsittely (pyynnöstä)"
+      ],
+      "window": [
+        "Ikkunalasin sisäpuolinen puhdistus",
+        "Kehysten ja karmien puhdistus",
+        "Raidaton viimeistely",
+        "Hyttysverkkojen puhdistus (pyynnöstä)",
+        "Kovien vesijälkien poisto"
+      ]
+    },
+    "pricing": {
+      "title": "Hinnat",
+      "discountNote": "Alennushinnat kanta-asiakkaille (viikoittainen/kahden viikon välein).",
+      "regular": {
+        "studio": { "type": "Yksiö", "price": "alkaen 70 EUR" },
+        "1bed": { "type": "1 makuuhuone", "price": "alkaen 80 EUR" },
+        "2bed": { "type": "2 makuuhuonetta", "price": "alkaen 90 EUR" },
+        "3bed": { "type": "3 makuuhuonetta", "price": "alkaen 105 EUR" },
+        "house": { "type": "Talo", "price": "alkaen 120 EUR" }
+      },
+      "deep": {
+        "studio": { "type": "Yksiö", "price": "alkaen 120 EUR" },
+        "1bed": { "type": "1 makuuhuone", "price": "alkaen 150 EUR" },
+        "2bed": { "type": "2 makuuhuonetta", "price": "alkaen 180 EUR" },
+        "3bed": { "type": "3 makuuhuonetta", "price": "alkaen 220 EUR" },
+        "house": { "type": "Talo", "price": "alkaen 260 EUR" }
+      },
+      "moveOut": {
+        "studio": { "type": "Yksiö", "price": "alkaen 150 EUR" },
+        "1bed": { "type": "1 makuuhuone", "price": "alkaen 180 EUR" },
+        "2bed": { "type": "2 makuuhuonetta", "price": "alkaen 220 EUR" },
+        "3bed": { "type": "3 makuuhuonetta", "price": "alkaen 260 EUR" },
+        "house": { "type": "Talo", "price": "alkaen 320 EUR" }
+      },
+      "office": {
+        "small": { "type": "Pieni toimisto", "price": "Ota yhteyttä" },
+        "medium": { "type": "Keskikokoinen toimisto", "price": "Ota yhteyttä" },
+        "large": { "type": "Suuri toimisto", "price": "Ota yhteyttä" }
+      },
+      "upholstery": {
+        "sofa2": { "type": "Sohva (2-istuttava)", "price": "Ota yhteyttä" },
+        "sofa3": { "type": "Sohva (3-istuttava)", "price": "Ota yhteyttä" },
+        "armchair": { "type": "Nojatuoli", "price": "Ota yhteyttä" },
+        "mattress": { "type": "Patja", "price": "Ota yhteyttä" }
+      },
+      "window": {
+        "perWindow": { "type": "Per ikkuna", "price": "Ota yhteyttä" },
+        "apartment": { "type": "Koko asunto", "price": "Ota yhteyttä" },
+        "house": { "type": "Talo", "price": "Ota yhteyttä" }
+      }
+    },
+    "detail": {
+      "whatIsIncluded": "Mitä sisältyy",
+      "pricing": "Hinnat",
+      "faq": "Usein kysytyt kysymykset",
+      "ctaTitle": "Valmis varaamaan siivouksen?",
+      "ctaDescription": "Muutatko pian? Usein otamme vastaan myös viime hetken pyyntöjä."
+    }
+  },
+  "pricing": {
+    "pageTitle": "Yksinkertainen, läpinäkyvä hinnoittelu",
+    "pageDescription": "Ei piilotettuja maksuja, ei yllätyksiä. Kiinteä hinnoittelumme tekee helpoksi tietää, mitä tarkalleen maksat.",
+    "regularCleaning": "Säännöllinen siivous",
+    "deepCleaning": "Syväpuhdistus",
+    "moveOutCleaning": "Muuttosiivous",
+    "goodToKnow": "Hyvä tietää",
+    "goodToKnowItems": [
+      "Alennushinnat kanta-asiakkaille (viikoittainen/kahden viikon välein varaus)",
+      "Lopullinen hinta voi vaihdella kiinteistön koon ja kunnon mukaan",
+      "Kaikki hinnat sisältävät ammattimaiset siivoustuotteet ja -välineet",
+      "Hyväksymme pankkisiirron ja käteismaksut"
+    ],
+    "otherServices": "Muut palvelut",
+    "otherServicesDescription": "Toimistosiivouksesta, verhoilun puhdistuksesta ja ikkunanpesusta ota meihin yhteyttä henkilökohtaisen tarjouksen saamiseksi.",
+    "usePriceCalculator": "Käytä hintalaskuria",
+    "ctaTitle": "Saat tarkan tarjouksen tänään",
+    "ctaDescription": "Käytä laskuriamme välittömään arvioon tai ota meihin suoraan yhteyttä.",
+    "useCalculator": "Käytä laskuria",
+    "propertyTypes": {
+      "studio": "Yksiö",
+      "1bed": "1 makuuhuone",
+      "2bed": "2 makuuhuonetta",
+      "3bed": "3 makuuhuonetta",
+      "house": "Talo"
+    },
+    "discountNote": "Alennushinnat kanta-asiakkaille (viikoittainen/kahden viikon välein)."
+  },
+  "about": {
+    "pageTitle": "Tietoa LGX Puhastuksesta",
+    "pageDescription": "Kotisi huolehtivissa käsissä. Olemme ammattimainen siivousyritys, joka palvelee Tallinnaa ja Harjumaata vuodesta 2024.",
+    "ourStory": "Tarinamme",
+    "storyParagraph1": "LGX Puhastuksen perusti Ana, brasilialainen, joka muutti Tallinnaan intohimolla luoda puhtaita, kutsuvia tiloja. Työskenneltyään siivousalla ja nähtyään tarpeen henkilökohtaisemmalle, luotettavalle palvelulle, hän päätti perustaa oman yrityksensä vuonna 2024.",
+    "storyParagraph2": "Filosofiamme on yksinkertainen: kohtelemme jokaista kotia kuin omaamme. Ymmärrämme, että kun annat jollekulle avaimesi, luotat häneen paljon. Otamme tämän vastuun vakavasti.",
+    "storyParagraph3": "Tänään palvelemme perheitä, ammattilaisia ja kiinteistönhoitajia ympäri Tallinnaa ja Harjumaata. Asiakkaamme palaavat luoksemme, koska tietävät voivansa luottaa johdonmukaiseen, laadukkaaseen siivoukseen henkilökohtaisella otteella.",
+    "ourValues": "Arvomme",
+    "valuesDescription": "Kaikki tekemämme ohjautuu näistä perusperiaatteista.",
+    "values": {
+      "trust": {
+        "title": "Luottamus",
+        "description": "Ymmärrämme, että jonkun kutsuminen kotiisi vaatii luottamusta. Kohtelemme jokaista kotia kunnioituksella ja rehellisyydellä."
+      },
+      "care": {
+        "title": "Huolenpito",
+        "description": "Puhdistamme kotisi kuin omamme. Jokainen yksityiskohta on tärkeä, koska mukavuutesi on meille tärkeää."
+      },
+      "attention": {
+        "title": "Huomio yksityiskohtiin",
+        "description": "Uskomme, että loistava siivous on yksityiskohdissa. Mitään ei jätetä huomiotta, mitään ei tehdä kiireellä."
+      }
+    },
+    "companyInfo": "Yritystiedot",
+    "companyName": "Yrityksen nimi",
+    "registrationNumber": "Y-tunnus",
+    "location": "Sijainti",
+    "serviceArea": "Palvelualue",
+    "ctaTitle": "Valmis kokemaan eron?",
+    "ctaDescription": "Anna meidän näyttää, mitä huolehtivat kädet voivat tehdä kodillesi."
+  },
+  "contact": {
+    "pageTitle": "Ota yhteyttä",
+    "pageDescription": "Valmis varaamaan siivouksen tai onko kysymyksiä? Olemme täällä auttamassa. Ota yhteyttä ja vastaamme 24 tunnin kuluessa.",
+    "sendUsMessage": "Lähetä meille viesti",
+    "contactInfo": "Yhteystiedot",
+    "whatsapp": "WhatsApp",
+    "clickToChat": "Klikkaa keskustellaksesi kanssamme",
+    "servingArea": "Palvelemme Tallinnaa ja Harjumaata",
+    "businessHours": "Aukioloajat",
+    "movingOutSoon": "Muutatko pian?",
+    "movingOutDescription": "Usein otamme vastaan myös viime hetken pyyntöjä. Ota meihin yhteyttä WhatsAppissa nopeimman vastauksen saamiseksi.",
+    "form": {
+      "name": "Nimi",
+      "namePlaceholder": "Nimesi",
+      "email": "Sähköposti",
+      "emailPlaceholder": "sinun@email.fi",
+      "phone": "Puhelin",
+      "phonePlaceholder": "+372 XXXX XXXX",
+      "serviceType": "Palvelutyyppi",
+      "selectService": "Valitse palvelu",
+      "message": "Viesti",
+      "messagePlaceholder": "Kerro siivoustarpeistasi...",
+      "sendMessage": "Lähetä viesti",
+      "sending": "Lähetetään...",
+      "thankYou": "Kiitos!",
+      "willReply": "Vastaamme 24 tunnin kuluessa."
+    },
+    "serviceTypes": {
+      "regular": "Säännöllinen siivous",
+      "deep": "Syväpuhdistus",
+      "moveOut": "Muuttosiivous",
+      "office": "Toimistosiivous",
+      "upholstery": "Verhoilun puhdistus",
+      "window": "Ikkunanpesu",
+      "other": "Muu"
+    }
+  },
+  "gallery": {
+    "pageTitle": "Työmme",
+    "pageDescription": "Todellisia tuloksia todellisista kodeista. Katso, minkä eron ammattimainen siivous tekee.",
+    "beforeAfter": "Ennen ja jälkeen",
+    "videoTransformations": "Videomuutokset",
+    "ctaTitle": "Valmis omaan muutokseesi?",
+    "ctaDescription": "Anna meidän tuoda sama taso huolenpitoa ja huomiota kotiisi.",
+    "images": {
+      "bathroomSink": {
+        "title": "Kylpyhuoneen pesuallas",
+        "description": "Syväpuhdistettu ja järjestetty"
+      },
+      "stovetop": {
+        "title": "Liesitaso",
+        "description": "Rasva ja lika poistettu"
+      },
+      "desk": {
+        "title": "Toimiston työpöytä",
+        "description": "Pölytön ja moitteeton"
+      },
+      "showerFaucet": {
+        "title": "Suihkuhana",
+        "description": "Kalkkisaostumat poistettu, kromi palautettu"
+      }
+    }
+  },
+  "calculator": {
+    "pageTitle": "Hintalaskin",
+    "pageDescription": "Saat välittömän arvion siivoustarpeisiisi. Valitse kiinteistötyyppi ja palvelu nähdäksesi hinnan.",
+    "title": "Hintalaskin",
+    "propertyType": "Kiinteistötyyppi",
+    "selectPropertyType": "Valitse kiinteistötyyppi",
+    "serviceType": "Palvelutyyppi",
+    "selectServiceType": "Valitse palvelutyyppi",
+    "estimatedPrice": "Arvioitu hinta",
+    "priceNote": "Lopullinen hinta voi vaihdella kiinteistön kunnon mukaan",
+    "getExactQuote": "Saat tarkan tarjouksen",
+    "yourName": "Nimesi",
+    "yourEmail": "Sähköpostisi",
+    "yourPhone": "Puhelinnumerosi",
+    "getExactQuoteWhatsApp": "Saat tarkan tarjouksen WhatsAppissa",
+    "howPricingWorks": "Miten hinnoittelumme toimii",
+    "pricingFeatures": {
+      "flatRate": {
+        "title": "Kiinteä hinta",
+        "description": "Hintamme perustuvat kiinteistön kokoon ja palvelutyyppiin, ei tuntihintaan. Tiedät etukäteen, mitä maksat."
+      },
+      "discounts": {
+        "title": "Alennukset kanta-asiakkaille",
+        "description": "Varaa viikoittainen tai kahden viikon välein tapahtuva siivous ja nauti alennushinnoista."
+      },
+      "allInclusive": {
+        "title": "Kaikki sisältyy",
+        "description": "Tiimimme tuo mukanaan kaikki ammattimaiset siivoustuotteet ja välineet. Ei lisäkustannuksia."
+      },
+      "customQuotes": {
+        "title": "Henkilökohtaiset tarjoukset",
+        "description": "Erityistoiveisiin tai ainutlaatuisiin kiinteistöihin ota meihin yhteyttä henkilökohtaisen tarjouksen saamiseksi."
+      }
+    },
+    "needMoreInfo": "Tarvitsetko lisätietoja palveluistamme?",
+    "seeFullPricing": "Katso täydellinen hinnoittelu",
+    "whatsappMessage": "Hei! Olen kiinnostunut palvelusta {service} kiinteistööni {property}. Arvioitu hinta: alkaen {price} EUR.",
+    "propertyTypes": {
+      "studio": "Yksiö",
+      "1bed": "1 makuuhuone",
+      "2bed": "2 makuuhuonetta",
+      "3bed": "3 makuuhuonetta",
+      "house": "Talo"
+    },
+    "serviceTypes": {
+      "regular": "Säännöllinen siivous",
+      "deep": "Syväpuhdistus",
+      "move": "Muuttosiivous"
+    }
+  },
+  "faq": {
+    "questions": {
+      "supplies": {
+        "question": "Pitääkö minun hankkia siivousvälineet itse?",
+        "answer": "Ei. Tiimimme tuo mukanaan kaikki ammattimaiset siivoustuotteet ja -välineet."
+      },
+      "duration": {
+        "question": "Kuinka kauan siivous kestää?",
+        "answer": "Se riippuu kiinteistön koosta ja kunnosta. Useimmat säännölliset siivoukset kestävät 2-4 tuntia."
+      },
+      "presence": {
+        "question": "Pitääkö minun olla kotona siivouksen aikana?",
+        "answer": "Ei, monet asiakkaamme antavat pääsyn kiinteistöön ollessaan poissa. Meihin luottavat asunnonomistajat ympäri Tallinnaa."
+      },
+      "booking": {
+        "question": "Miten voin varata siivouksen?",
+        "answer": "Voit ottaa meihin yhteyttä WhatsAppissa, puhelimitse tai verkkosivustomme yhteydenottolomakkeella. Vastaamme yleensä muutaman tunnin sisällä."
+      },
+      "areas": {
+        "question": "Mitä alueita palvelette?",
+        "answer": "Tarjoamme siivouspalveluita Tallinnassa ja Harjumaalla, mukaan lukien kaikissa kaupunginosissa."
+      },
+      "payment": {
+        "question": "Mitä maksutapoja hyväksytte?",
+        "answer": "Hyväksymme pankkisiirron ja käteismaksut."
+      },
+      "satisfaction": {
+        "question": "Entä jos en ole tyytyväinen siivoukseen?",
+        "answer": "Asiakastyytyväisyys on meille erittäin tärkeää. Jos et ole tyytyväinen johonkin palvelun osaan, ota meihin yhteyttä 24 tunnin kuluessa ja palaamme korjaamaan asian ilman lisäkustannuksia."
+      }
+    }
+  },
+  "testimonials": {
+    "testimonial1": {
+      "name": "Maria K.",
+      "text": "Ana ja hänen tiiminsä tekivät upeaa työtä muuttosiivouksemme kanssa. Asunto näytti paremmalta kuin muuttaessamme sisään. Suosittelen lämpimästi!",
+      "location": "Kesklinn, Tallinna"
+    },
+    "testimonial2": {
+      "name": "Johan S.",
+      "text": "Käytämme LGX Puhastusta viikoittaiseen siivoukseen ja johdonmukaisuus on erinomainen. Kotimme tuntuu aina raikkaalta ja kutsuvalta.",
+      "location": "Mustamäe, Tallinna"
+    },
+    "testimonial3": {
+      "name": "Elena R.",
+      "text": "Erittäin ammattimainen ja luotettava. Tunnen oloni mukavaksi jättäessäni avaimeni heille. Huomio yksityiskohtiin on vaikuttavaa.",
+      "location": "Pirita, Tallinna"
+    }
+  },
+  "blog": {
+    "pageTitle": "Blogi",
+    "pageDescription": "Siivousvinkkejä, kodin ylläpitovinkkejä ja uutisia LGX Puhastukselta. Opi pitämään Tallinnan kotisi raikkaana ja puhtaana.",
+    "title": "Blogimme",
+    "subtitle": "Vinkkejä ja neuvoja, jotka auttavat pitämään Tallinnan kotisi puhtaana ja mukavana.",
+    "noPosts": "Kirjoituksia ei ole vielä saatavilla.",
+    "readMore": "Lue lisää",
+    "backToBlog": "Takaisin blogiin",
+    "ctaTitle": "Tarvitsetko ammattimaista siivousta?",
+    "ctaText": "Anna meidän hoitaa raskas työ, kun sinä nautit puhtaasta kodista.",
+    "ctaButton": "Pyydä tarjous",
+    "postCtaTitle": "Tarvitsetko ammattimaista siivousapua?",
+    "postCtaText": "Olemme täällä huolehtimaan kodistasi samalla huomiolla ja huolellisuudella.",
+    "postNotFound": "Kirjoitusta ei löytynyt"
+  }
+}

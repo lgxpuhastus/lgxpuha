@@ -1,0 +1,531 @@
+{
+  "schema": {
+    "businessDescription": "Professionaalsed koristusteenused Tallinnas ja Harjumaal. Regulaarne koristus, süvapuhastus, kolimiskoristus, kontorikoristus ja palju muud.",
+    "serviceType": "Koristusteenus",
+    "offerCatalogName": "Koristusteenused",
+    "regularCleaningName": "Regulaarne kodukoristus",
+    "regularCleaningDescription": "Professionaalne hoolduskoristus, et hoida sinu kodu värske ja mugav.",
+    "deepCleaningName": "Süvapuhastus",
+    "deepCleaningDescription": "Põhjalik koristus kodudele, mis vajavad erilist hoolt.",
+    "moveOutCleaningName": "Kolimiskoristus",
+    "moveOutCleaningDescription": "Põhjalik koristus tühjadele kodudele enne sissekolimist või pärast väljakolimist."
+  },
+  "metadata": {
+    "title": "LGX Puhastus | Professionaalsed koristusteenused Tallinnas",
+    "description": "Sinu kodu hoolivates kätes. Professionaalsed koristusteenused Tallinnas ja Harjumaal. Regulaarne koristus, süvapuhastus, kolimiskoristus ja palju muud."
+  },
+  "navigation": {
+    "services": "Teenused",
+    "pricing": "Hinnad",
+    "calculator": "Kalkulaator",
+    "about": "Meist",
+    "gallery": "Galerii",
+    "blog": "Blogi",
+    "contact": "Kontakt"
+  },
+  "common": {
+    "getQuote": "Küsi pakkumist",
+    "whatsappUs": "Kirjuta WhatsAppis",
+    "learnMore": "Loe lähemalt",
+    "viewAll": "Vaata kõiki",
+    "viewAllServices": "Vaata kõiki teenuseid",
+    "sendMessage": "Saada sõnum",
+    "submit": "Esita",
+    "loading": "Laadin...",
+    "phone": "Telefon",
+    "email": "E-post",
+    "address": "Aadress",
+    "contactUs": "Võta ühendust",
+    "backToServices": "Tagasi teenuste juurde",
+    "home": "Avaleht",
+    "from": "alates",
+    "eur": "EUR"
+  },
+  "footer": {
+    "companyDescription": "Sinu kodu hoolivates kätes. Professionaalsed koristusteenused Tallinnas ja Harjumaal.",
+    "services": "Teenused",
+    "company": "Ettevõte",
+    "businessHours": "Tööaeg",
+    "legal": "Õiguslik info",
+    "weekdays": "Esmaspäev - Reede: 8:00 - 18:00",
+    "weekends": "Nädalavahetused: Kokkuleppel",
+    "copyright": "© {year} LGX Puhastus OÜ. Kõik õigused kaitstud.",
+    "websiteBy": "Veebileht:",
+    "privacyPolicy": "Privaatsuspoliitika",
+    "termsOfService": "Kasutustingimused",
+    "aboutUs": "Meist",
+    "pricing": "Hinnad",
+    "gallery": "Galerii",
+    "blog": "Blogi",
+    "contact": "Kontakt",
+    "location": "Tallinn, Eesti",
+    "regularCleaning": "Regulaarne koristus",
+    "deepCleaning": "Süvapuhastus",
+    "moveOutCleaning": "Kolimiskoristus",
+    "officeCleaning": "Kontorikoristus"
+  },
+  "home": {
+    "heroTitle": "Sinu kodu hoolivates kätes",
+    "heroDescription": "Professionaalsed koristusteenused Tallinnas ja Harjumaal. Kohtleme sinu kodu sama hoolikalt kui enda oma.",
+    "servicesTitle": "Meie teenused",
+    "servicesDescription": "Regulaarsest hoolduskoristusest süvapuhastuseni - meil on teenus igaks vajaduseks.",
+    "howItWorks": "Kuidas see toimib",
+    "howItWorksDescription": "Kodu puhastamine on lihtne ja selge.",
+    "testimonialsTitle": "Mida meie kliendid ütlevad",
+    "testimonialsDescription": "Tallinna koduomanike usaldusväärne valik.",
+    "faqTitle": "Korduma kippuvad küsimused",
+    "ctaTitle": "Valmis nautima puhtamat kodu?",
+    "ctaDescription": "Kolid peagi? Sageli mahutame ka viimasel hetkel tehtud päringuid."
+  },
+  "trustSignals": {
+    "since": "Alates 2024",
+    "servingTallinn": "Teenindame Tallinna",
+    "happyClients": "Rahulolevat klienti",
+    "googleRating": "Google hinnang",
+    "satisfaction": "Rahulolu"
+  },
+  "steps": {
+    "step1": {
+      "title": "Võta ühendust",
+      "description": "Kirjuta meile WhatsAppis, helista või täida kontaktivorm."
+    },
+    "step2": {
+      "title": "Saa pakkumine",
+      "description": "Anname sulle selge ja õiglase hinna sinu koristusvajaduste jaoks."
+    },
+    "step3": {
+      "title": "Broneeri aeg",
+      "description": "Vali endale sobiv kuupäev ja kellaaeg."
+    },
+    "step4": {
+      "title": "Naudi puhast kodu",
+      "description": "Lõdvestu, meie hoolitseme koristuse eest."
+    }
+  },
+  "services": {
+    "metaTitle": "Meie koristusteenused",
+    "metaDescription": "Professionaalsed koristusteenused Tallinnas. Regulaarne koristus, süvapuhastus, kolimiskoristus, kontorikoristus, pehme mööbli puhastus ja aknapuhastus.",
+    "pageTitle": "Meie koristusteenused",
+    "pageDescription": "Regulaarsest hooldusest eritöödeni - meil on teenus igaks vajaduseks. Kõik teenused sisaldavad professionaalseid vahendeid ja keskkonnasõbralikke tooteid.",
+    "ctaTitle": "Pole kindel, millist teenust vajad?",
+    "ctaDescription": "Võta meiega ühendust ja aitame sul valida õige koristusteenuse.",
+    "regular": {
+      "title": "Regulaarne koristus",
+      "description": "Professionaalne hoolduskoristus, et hoida sinu kodu alati värske ja mugav.",
+      "longDescription": "Professionaalne hoolduskoristus, mis on loodud hoidma sinu kodu pidevalt värske, puhas ja mugav. Meie regulaarne koristusteenus sobib ideaalselt hõivatud peredele ja professionaalidele, kes soovivad hoida puhast kodu ilma lisavaevata. Toome kaasa kõik vahendid ja seadmed, et sina saaksid lihtsalt lõõgastuda.",
+      "perfectFor": "Ideaalne iganädalaseks või kahenädalaseks hoolduseks. Kõige populaarsem Tallinna hõivatud professionaalide ja perede seas."
+    },
+    "deep": {
+      "title": "Süvapuhastus",
+      "description": "Põhjalik koristus kodudele, mis vajavad erilist hoolt või pole hiljuti professionaalselt puhastatud.",
+      "longDescription": "Põhjalik koristusteenus, mis on soovitatav kodudele, mis vajavad erilist hoolt või pole hiljuti professionaalselt puhastatud. Meie süvapuhastus ulatub sügavamale, et tagada iga nurga põhjalik puhastamine. See on ideaalne valik, kui kolid uude kohta, valmistud külaliste vastuvõtmiseks või soovid lihtsalt värsket algust.",
+      "perfectFor": "Ideaalne hooajalise puhastuse, esmakordsete teenuste või kodu ettevalmistamiseks eriliseks sündmuseks."
+    },
+    "moveOut": {
+      "title": "Kolimiskoristus",
+      "description": "Põhjalik koristus tühjadele kodudele enne sissekolimist või pärast väljakolimist.",
+      "longDescription": "Põhjalik koristus, mis on mõeldud tühjadele kodudele enne sissekolimist või pärast väljakolimist. See teenus tagab, et sinu kinnisvara on laitmatu järgmise elaniku jaoks või valmis sind uude koju tervitama. Meie kolimiskoristus vastab Tallinna üürileandjate ja kinnisvarahaldajate ootustele, aidates kaitsta sinu tagatisraha.",
+      "perfectFor": "Soovitatav üürnikele, üürileandjatele ja kinnisvarahaldajatele. Kaitse oma tagatisraha professionaalse koristusega.",
+      "additionalContent": {
+        "title": "Miks on professionaalne kolimiskoristus Tallinnas oluline",
+        "intro": "Üürikorterist välja kolimine Tallinnas võib olla stressirohke, eriti kui sinu tagatisraha on kaalul. Paljud Eesti üürileandjad nõuavad, et kinnisvara tagastatakse samas seisundis, nagu see saadi, mis sageli tähendab professionaalsel tasemel koristust.",
+        "depositTitle": "Kaitse oma tagatisraha",
+        "depositText": "Me mõistame, et kogu tagatisraha tagasisaamine on oluline. Meie põhjalik kolimiskoristusteenus on loodud vastama Tallinna ja Harjumaa üürileandjate ning kinnisvarahaldusettevõtete standarditele. Pöörame tähelepanu detailidele, mida üürileandjad kontrollivad: katlakivi kraanidel, rasv ahjus, tolm kappides ja palju muud.",
+        "checklistTitle": "Mida üürileandjad kontrollivad",
+        "checklistIntro": "Meie kogemuse põhjal Tallinna üürnike teenindamisel on siin kõige levinumad valdkonnad, mida üürileandjad inspekteerivad:",
+        "checklistItems": [
+          "Köögiseadmed (ahju, külmkapi, mikrolaineahju sisemus)",
+          "Vannitoa sisustus (katlakivi kraanidel, dušiklaas, WC-pott)",
+          "Kappide sisemus (köök ja riidekapid)",
+          "Akende puhtus",
+          "Põranda seisund",
+          "Seinajäljed ja kriimud"
+        ],
+        "rendinTitle": "Väldi vaidlusi Rendini ja üürileandjatega",
+        "rendinText": "Kui üürid Rendini või sarnase teenuse kaudu, võib professionaalse koristuse dokumentatsioon aidata lahendada vaidlusi kinnisvara seisundi üle. Pakume põhjalikku koristust, mis vastab professionaalsetele standarditele."
+      },
+      "faq": {
+        "deposit": {
+          "question": "Kas see koristus aitab mul tagatisraha tagasi saada?",
+          "answer": "Meie kolimiskoristus on loodud vastama üürileandjate ootustele. Kuigi me ei saa garanteerida tagatisraha tagastamist (see sõltub sinu üürileandjast ja lepingu tingimustest), käsitleb meie põhjalik koristus kõiki levinumaid probleeme, mida üürileandjad kontrollivad."
+        },
+        "booking": {
+          "question": "Kui palju ette peaksin broneerima?",
+          "answer": "Soovitame broneerida vähemalt 3-5 päeva ette. Siiski mahutame sageli ka viimasel hetkel tehtud päringuid, kui meie ajakava seda võimaldab."
+        },
+        "satisfaction": {
+          "question": "Mis siis, kui minu üürileandja pole rahul?",
+          "answer": "Kliendi rahulolu on meie prioriteet. Kui 24 tunni jooksul pärast koristust tõstatatakse probleeme, tuleme need lahendama ilma lisakuludeta."
+        },
+        "oven": {
+          "question": "Kas te puhastate ahju seestpoolt?",
+          "answer": "Jah, kodumasinate seestpoolt puhastamine on meie kolimiskoristusteenuses kaasas. Puhastame ahju, külmkapi ja mikrolaineahju seestpoolt."
+        }
+      }
+    },
+    "office": {
+      "title": "Kontorikoristus",
+      "description": "Usaldusväärne koristusteenus kontorite ja väikeste äripindade jaoks.",
+      "longDescription": "Usaldusväärne koristusteenus kontorite ja väikeste äripindade jaoks. Hoia oma töökeskkond professionaalne, puhas ja kutsuv oma töötajate ja klientide jaoks. Puhas kontor parandab tootlikkust, jätab külastajatele hea mulje ja aitab kaasa tervislikumale töökeskkonnale.",
+      "perfectFor": "Ideaalne professionaalse töökeskkonna hoidmiseks. Paindlik ajakava igapäevaseks, iganädalaseks või igakuiseks teenuseks."
+    },
+    "upholstery": {
+      "title": "Pehme mööbli puhastus",
+      "description": "Professionaalne süvapuhastus diivanite, tugitoolide ja muu pehme mööbli jaoks.",
+      "longDescription": "Professionaalne süvapuhastus diivanite, tugitoolide ja muu pehme mööbli jaoks, et eemaldada mustus, plekid ja lõhnad. Aja jooksul koguneb pehme mööblisse tolmu, allergeene ja plekke, mida tavaline tolmuimejaga puhastamine ei eemalda. Meie professionaalne puhastus taastab sinu mööbli algse värskuse ja pikendab selle eluiga.",
+      "perfectFor": "Võta meiega ühendust personaalse hinnapakkumise saamiseks vastavalt sinu mööbli tüübile ja seisundile."
+    },
+    "window": {
+      "title": "Aknapuhastus",
+      "description": "Professionaalne aknapuhastus kristallselge vaate jaoks.",
+      "longDescription": "Professionaalne aknapuhastus kristallselge vaate jaoks. Tagame triibuvabad, säravad aknad, mis lasevad valgusel paista. Puhtad aknad muudavad oluliselt seda, kui helge ja kutsuv sinu ruum tundub.",
+      "perfectFor": "Võta meiega ühendust personaalse hinnapakkumise saamiseks vastavalt akende arvule ja suurusele."
+    },
+    "includes": {
+      "title": "Mida sisaldab",
+      "regular": [
+        "Kõikide ligipääsetavate pindade tolmutamine ja puhastamine",
+        "Kõikide põrandate tolmuimejaga puhastamine ja pesemine",
+        "Vannitoa puhastus (WC-pott, kraanikauss, dušiala)",
+        "Köögi pindade ja seadmete välispinna puhastamine",
+        "Peeglite ja klaaspindade puhastamine",
+        "Üldine tolmu eemaldamine",
+        "Prügi äravedu ja prügikastide puhastamine"
+      ],
+      "deep": [
+        "Kõik regulaarsest koristusest",
+        "Kappide ja sahtlite seestpoolt puhastamine",
+        "Köögiseadmete seestpoolt puhastamine (ahi, mikrolaineahi, külmkapp)",
+        "Põhjalik vannitoa puhastus katlakivi eemaldamisega",
+        "Mööbli taga ja all puhastamine, kus ligipääsetav",
+        "Seinapindade puhastamine vajadusel",
+        "Kõikide pindade põhjalik puhastamine, kaasa arvatud põrandaliistu",
+        "Valgustite ja laeventilaatorite tolmutamine"
+      ],
+      "moveOut": [
+        "Kappide ja sahtlite seest- ja väljastpoolt puhastamine",
+        "Kodumasinate seestpoolt puhastamine (ahi, külmkapp, mikrolaineahi)",
+        "Vannitoa täielik katlakivi eemaldus ja desinfitseerimine",
+        "Katlakivi eemaldamine kraanidelt ja dušipeadelt",
+        "Kõikide põrandate tolmuimejaga puhastamine ja pesemine",
+        "Seinapindade puhastamine vajadusel",
+        "Akende seestpoolt puhastamine",
+        "Kõikide pindade, peeglite ja lülitite puhastamine",
+        "Tolmu eemaldamine kõikidest nurkadest ja servadest"
+      ],
+      "office": [
+        "Laudade ja pindade puhastamine",
+        "Põrandate tolmuimejaga puhastamine ja pesemine",
+        "Vannitoa ja köögiala puhastamine",
+        "Peeglite ja klaaspindade puhastamine",
+        "Prügi äravedu ja prügikastide puhastamine",
+        "Kõikide pindade üldine tolmutamine",
+        "Ukselinkide ja lülitite desinfitseerimine"
+      ],
+      "upholstery": [
+        "Kanga süvapuhastus ja ekstraheerimine",
+        "Plekkide eemaldamise töötlus",
+        "Lõhnade neutraliseerimine",
+        "Allergeenide eemaldamine",
+        "Kangakaitse töötlus (soovi korral)"
+      ],
+      "window": [
+        "Akende klaasi seestpoolt puhastamine",
+        "Raamide ja lenkide puhastamine",
+        "Triibuvaba viimistlus",
+        "Võrkude puhastamine (soovi korral)",
+        "Kõva vee jälgede eemaldamine"
+      ]
+    },
+    "pricing": {
+      "title": "Hinnad",
+      "discountNote": "Soodushinnad püsiklientidele (iganädalane/kahenädalane).",
+      "regular": {
+        "studio": { "type": "Stuudio", "price": "alates 70 EUR" },
+        "1bed": { "type": "1-toaline", "price": "alates 80 EUR" },
+        "2bed": { "type": "2-toaline", "price": "alates 90 EUR" },
+        "3bed": { "type": "3-toaline", "price": "alates 105 EUR" },
+        "house": { "type": "Maja", "price": "alates 120 EUR" }
+      },
+      "deep": {
+        "studio": { "type": "Stuudio", "price": "alates 120 EUR" },
+        "1bed": { "type": "1-toaline", "price": "alates 150 EUR" },
+        "2bed": { "type": "2-toaline", "price": "alates 180 EUR" },
+        "3bed": { "type": "3-toaline", "price": "alates 220 EUR" },
+        "house": { "type": "Maja", "price": "alates 260 EUR" }
+      },
+      "moveOut": {
+        "studio": { "type": "Stuudio", "price": "alates 150 EUR" },
+        "1bed": { "type": "1-toaline", "price": "alates 180 EUR" },
+        "2bed": { "type": "2-toaline", "price": "alates 220 EUR" },
+        "3bed": { "type": "3-toaline", "price": "alates 260 EUR" },
+        "house": { "type": "Maja", "price": "alates 320 EUR" }
+      },
+      "office": {
+        "small": { "type": "Väike kontor", "price": "Võta ühendust" },
+        "medium": { "type": "Keskmine kontor", "price": "Võta ühendust" },
+        "large": { "type": "Suur kontor", "price": "Võta ühendust" }
+      },
+      "upholstery": {
+        "sofa2": { "type": "Diivan (2-kohaline)", "price": "Võta ühendust" },
+        "sofa3": { "type": "Diivan (3-kohaline)", "price": "Võta ühendust" },
+        "armchair": { "type": "Tugitool", "price": "Võta ühendust" },
+        "mattress": { "type": "Madrats", "price": "Võta ühendust" }
+      },
+      "window": {
+        "perWindow": { "type": "Ühe akna kohta", "price": "Võta ühendust" },
+        "apartment": { "type": "Terve korter", "price": "Võta ühendust" },
+        "house": { "type": "Maja", "price": "Võta ühendust" }
+      }
+    },
+    "detail": {
+      "whatIsIncluded": "Mida sisaldab",
+      "pricing": "Hinnad",
+      "faq": "Korduma kippuvad küsimused",
+      "ctaTitle": "Valmis broneerima koristust?",
+      "ctaDescription": "Kolid peagi? Sageli mahutame ka viimasel hetkel tehtud päringuid."
+    }
+  },
+  "pricing": {
+    "metaTitle": "Hinnad",
+    "metaDescription": "Läbipaistev kindel hinnastamine kõigi meie koristusteenuste jaoks. Varjatud tasud puuduvad. Regulaarne koristus alates 70 EUR, süvapuhastus alates 120 EUR.",
+    "pageTitle": "Lihtne, läbipaistev hinnastamine",
+    "pageDescription": "Varjatud tasudeta, üllatusteta. Meie kindla hinnaga süsteem teeb lihtsaks teada, mida sa täpselt maksad.",
+    "regularCleaning": "Regulaarne koristus",
+    "deepCleaning": "Süvapuhastus",
+    "moveOutCleaning": "Kolimiskoristus",
+    "goodToKnow": "Hea teada",
+    "goodToKnowItems": [
+      "Soodushinnad püsiklientidele (iganädalane/kahenädalane broneerimine)",
+      "Lõplik hind võib varieeruda vastavalt kinnisvara suurusele ja seisundile",
+      "Kõik hinnad sisaldavad professionaalseid puhastusvahendeid ja -seadmeid",
+      "Aktsepteerime pangaülekannet ja sularahamakseid"
+    ],
+    "otherServices": "Muud teenused",
+    "otherServicesDescription": "Kontorikoristuse, pehme mööbli puhastuse ja aknapuhastuse jaoks võta meiega ühendust personaalse hinnapakkumise saamiseks.",
+    "usePriceCalculator": "Kasuta hinnakalkulaatorit",
+    "ctaTitle": "Saa oma täpne hinnapakkumine täna",
+    "ctaDescription": "Kasuta meie kalkulaatorit kohese hinnangu saamiseks või võta meiega otse ühendust.",
+    "useCalculator": "Kasuta kalkulaatorit",
+    "propertyTypes": {
+      "studio": "Stuudio",
+      "1bed": "1-toaline",
+      "2bed": "2-toaline",
+      "3bed": "3-toaline",
+      "house": "Maja"
+    },
+    "discountNote": "Soodushinnad püsiklientidele (iganädalane/kahenädalane)."
+  },
+  "about": {
+    "metaTitle": "Meist",
+    "metaDescription": "Tutvu LGX Puhastusega - professionaalne koristusettevõte Tallinnas, asutatud Ana poolt 2024. aastal. Sinu kodu hoolivates kätes.",
+    "pageTitle": "LGX Puhastusest",
+    "pageDescription": "Sinu kodu hoolivates kätes. Oleme professionaalne koristusettevõte, mis teenindab Tallinna ja Harjumaad alates 2024. aastast.",
+    "ourStory": "Meie lugu",
+    "storyParagraph1": "LGX Puhastuse asutas Ana, brasiillanna, kes kolis Tallinnasse armastusega luua puhtaid, kutsuva õhkkonnaga ruume. Pärast koristussektoris töötamist ja nähes vajadust isiklikuma, usaldusväärse teenuse järele, otsustas ta 2024. aastal oma ettevõtte asutada.",
+    "storyParagraph2": "Meie filosoofia on lihtne: kohtleme igat kodu nagu enda oma. Me mõistame, et kui annad kellelegi oma võtmed, usaldad teda väga palju. Võtame seda vastutust tõsiselt.",
+    "storyParagraph3": "Täna teenindame peresid, professionaale ja kinnisvarahaldajaid üle Tallinna ja Harjumaa. Meie kliendid tulevad meie juurde tagasi, sest teavad, et võivad loota järjepidevale, kvaliteetsele koristusele isikliku puudutusega.",
+    "ourValues": "Meie väärtused",
+    "valuesDescription": "Kõik, mida teeme, juhindub nendest põhiprintsiipidest.",
+    "values": {
+      "trust": {
+        "title": "Usaldus",
+        "description": "Mõistame, et kellegi koju kutsumine nõuab usaldust. Kohtleme iga kodu austuse ja ausameelsusega."
+      },
+      "care": {
+        "title": "Hoolimine",
+        "description": "Puhastame sinu kodu nagu enda oma. Iga detail on oluline, sest sinu mugavus on meile tähtis."
+      },
+      "attention": {
+        "title": "Tähelepanu detailidele",
+        "description": "Usume, et suurepärane koristus on detailides. Midagi ei jäeta tähelepanuta, midagi ei tehta kiirustades."
+      }
+    },
+    "companyInfo": "Ettevõtte info",
+    "companyName": "Ettevõtte nimi",
+    "registrationNumber": "Registrikood",
+    "location": "Asukoht",
+    "serviceArea": "Teeninduspiirkond",
+    "ctaTitle": "Valmis kogema erinevust?",
+    "ctaDescription": "Lase meil näidata, mida hoolivad käed suudavad sinu kodu heaks teha."
+  },
+  "contact": {
+    "pageTitle": "Võta ühendust",
+    "pageDescription": "Valmis broneerima koristust või on küsimusi? Oleme siin, et aidata. Võta ühendust ja vastame 24 tunni jooksul.",
+    "sendUsMessage": "Saada meile sõnum",
+    "contactInfo": "Kontaktandmed",
+    "whatsapp": "WhatsApp",
+    "clickToChat": "Kliki, et meiega vestelda",
+    "servingArea": "Teenindame Tallinna ja Harjumaad",
+    "businessHours": "Tööaeg",
+    "movingOutSoon": "Kolid peagi?",
+    "movingOutDescription": "Sageli mahutame ka viimasel hetkel tehtud päringuid. Võta meiega WhatsAppis ühendust kiireima vastuse saamiseks.",
+    "form": {
+      "name": "Nimi",
+      "namePlaceholder": "Sinu nimi",
+      "email": "E-post",
+      "emailPlaceholder": "sinu@email.ee",
+      "phone": "Telefon",
+      "phonePlaceholder": "+372 XXXX XXXX",
+      "serviceType": "Teenuse tüüp",
+      "selectService": "Vali teenus",
+      "message": "Sõnum",
+      "messagePlaceholder": "Kirjelda oma koristusvajadusi...",
+      "sendMessage": "Saada sõnum",
+      "sending": "Saadan...",
+      "thankYou": "Aitäh!",
+      "willReply": "Vastame 24 tunni jooksul."
+    },
+    "serviceTypes": {
+      "regular": "Regulaarne koristus",
+      "deep": "Süvapuhastus",
+      "moveOut": "Kolimiskoristus",
+      "office": "Kontorikoristus",
+      "upholstery": "Pehme mööbli puhastus",
+      "window": "Aknapuhastus",
+      "other": "Muu"
+    }
+  },
+  "gallery": {
+    "pageTitle": "Meie töö",
+    "pageDescription": "Tõelised tulemused tõelistest kodudest. Vaata, mis vahe on professionaalsel koristusel.",
+    "beforeAfter": "Enne ja pärast",
+    "videoTransformations": "Video muutumised",
+    "ctaTitle": "Valmis oma muutumiseks?",
+    "ctaDescription": "Lase meil tuua sama tasemel hoolitsus ja tähelepanu sinu koju.",
+    "images": {
+      "bathroomSink": {
+        "title": "Vannitoa valamu",
+        "description": "Süvapuhastatud ja korrastatud"
+      },
+      "stovetop": {
+        "title": "Pliidiplaat",
+        "description": "Rasv ja mustus eemaldatud"
+      },
+      "desk": {
+        "title": "Kontori töölaud",
+        "description": "Tolmuvaba ja laitmatu"
+      },
+      "showerFaucet": {
+        "title": "Dušikraan",
+        "description": "Katlakivi eemaldatud, kroom taastatud"
+      }
+    }
+  },
+  "calculator": {
+    "metaTitle": "Hinnakalkulaator",
+    "metaDescription": "Saa kohene koristuspakkumine oma Tallinna kodu jaoks. Vali kinnisvara tüüp ja teenus, et näha hinnangut.",
+    "pageTitle": "Hinnakalkulaator",
+    "pageDescription": "Saa kohene hinnang oma koristusvajaduste jaoks. Vali oma kinnisvara tüüp ja teenus, et näha hinda.",
+    "title": "Hinnakalkulaator",
+    "propertyType": "Kinnisvara tüüp",
+    "selectPropertyType": "Vali kinnisvara tüüp",
+    "serviceType": "Teenuse tüüp",
+    "selectServiceType": "Vali teenuse tüüp",
+    "estimatedPrice": "Hinnanguline hind",
+    "priceNote": "Lõplik hind võib varieeruda vastavalt kinnisvara seisundile",
+    "getExactQuote": "Saa täpne hinnapakkumine",
+    "yourName": "Sinu nimi",
+    "yourEmail": "Sinu e-post",
+    "yourPhone": "Sinu telefon",
+    "getExactQuoteWhatsApp": "Saa täpne pakkumine WhatsAppis",
+    "howPricingWorks": "Kuidas meie hinnastamine toimib",
+    "pricingFeatures": {
+      "flatRate": {
+        "title": "Kindel hind",
+        "description": "Meie hinnad põhinevad kinnisvara suurusel ja teenuse tüübil, mitte tunnitasudel. Tead ette, mida maksad."
+      },
+      "discounts": {
+        "title": "Soodustused püsiklientidele",
+        "description": "Broneeri iganädalane või kahenädalane koristus ja naudi soodushindu."
+      },
+      "allInclusive": {
+        "title": "Kõik hinnas",
+        "description": "Meie meeskond toob kaasa kõik professionaalsed puhastusvahendid ja seadmed. Lisakulusid pole."
+      },
+      "customQuotes": {
+        "title": "Personaalsed pakkumised",
+        "description": "Eriliste soovide või unikaalsete kinnisvarade jaoks võta meiega ühendust personaalse pakkumise saamiseks."
+      }
+    },
+    "needMoreInfo": "Vajad rohkem infot meie teenuste kohta?",
+    "seeFullPricing": "Vaata täielikku hinnastamist",
+    "whatsappMessage": "Tere! Olen huvitatud teenusest {service} oma {property} jaoks. Hinnanguline hind: alates {price} EUR.",
+    "propertyTypes": {
+      "studio": "Stuudio",
+      "1bed": "1-toaline",
+      "2bed": "2-toaline",
+      "3bed": "3-toaline",
+      "house": "Maja"
+    },
+    "serviceTypes": {
+      "regular": "Regulaarne koristus",
+      "deep": "Süvapuhastus",
+      "move": "Kolimiskoristus"
+    }
+  },
+  "faq": {
+    "questions": {
+      "supplies": {
+        "question": "Kas ma pean puhastusvahendid ise pakkuma?",
+        "answer": "Ei. Meie meeskond toob kaasa kõik professionaalsed puhastusvahendid ja seadmed."
+      },
+      "duration": {
+        "question": "Kui kaua koristus kestab?",
+        "answer": "See sõltub kinnisvara suurusest ja seisundist. Enamik regulaarseid koristusi võtab aega 2 kuni 4 tundi."
+      },
+      "presence": {
+        "question": "Kas ma pean koristuse ajal kodus olema?",
+        "answer": "Ei, paljud meie kliendid annavad ligipääsu kinnisvarale, kui neid pole kodus. Meid usaldavad koduomanikud üle Tallinna."
+      },
+      "booking": {
+        "question": "Kuidas saan koristust broneerida?",
+        "answer": "Saad meiega ühendust võtta WhatsAppis, telefoni teel või meie veebilehe kontaktivormi kaudu. Vastame tavaliselt mõne tunni jooksul."
+      },
+      "areas": {
+        "question": "Milliseid piirkondi te teenindate?",
+        "answer": "Pakume koristusteenuseid Tallinnas ja Harjumaal, sealhulgas kõigis linna linnaosades."
+      },
+      "payment": {
+        "question": "Milliseid makseviise te aktsepteerite?",
+        "answer": "Aktsepteerime pangaülekannet ja sularahamakseid."
+      },
+      "satisfaction": {
+        "question": "Mis siis, kui ma pole koristusega rahul?",
+        "answer": "Kliendi rahulolu on meile väga oluline. Kui sa pole mõne teenuse osaga rahul, võta meiega 24 tunni jooksul ühendust ja tuleme vea parandama ilma lisakuludeta."
+      }
+    }
+  },
+  "testimonials": {
+    "testimonial1": {
+      "name": "Maria K.",
+      "text": "Ana ja tema meeskond tegid meie kolimiskoristusega suurepärast tööd. Korter nägi parem välja kui siis, kui sisse kolisime. Soovitan soojalt!",
+      "location": "Kesklinn, Tallinn"
+    },
+    "testimonial2": {
+      "name": "Johan S.",
+      "text": "Kasutame LGX Puhastust iganädalase koristuse jaoks ja järjepidevus on suurepärane. Meie kodu tundub alati värske ja kutsuv.",
+      "location": "Mustamäe, Tallinn"
+    },
+    "testimonial3": {
+      "name": "Elena R.",
+      "text": "Väga professionaalne ja usaldusväärne. Tunnen end mugavalt, jättes neile oma võtmed. Tähelepanu detailidele on muljetavaldav.",
+      "location": "Pirita, Tallinn"
+    }
+  },
+  "blog": {
+    "pageTitle": "Blogi",
+    "pageDescription": "Koristusnõuanded, kodu hoolduse soovitused ja uudised LGX Puhastuselt. Õpi, kuidas hoida oma Tallinna kodu värske ja puhtana.",
+    "title": "Meie blogi",
+    "subtitle": "Nõuanded ja teadmised, mis aitavad hoida sinu Tallinna kodu puhta ja mugavana.",
+    "noPosts": "Postitusi pole veel saadaval.",
+    "readMore": "Loe edasi",
+    "backToBlog": "Tagasi blogisse",
+    "ctaTitle": "Vajad professionaalset koristust?",
+    "ctaText": "Lase meil teha raske töö, samal ajal kui sina naudid puhast kodu.",
+    "ctaButton": "Küsi pakkumist",
+    "postCtaTitle": "Vajad professionaalset koristusabi?",
+    "postCtaText": "Oleme siin, et hoolitseda sinu kodu eest sama tähelepanu ja hoolikusega.",
+    "postNotFound": "Postitust ei leitud"
+  }
+}

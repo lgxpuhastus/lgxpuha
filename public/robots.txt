@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://ana.barqai.agency
+Host: https://lgxpuhastus.ee
 
 # Sitemaps
-Sitemap: https://ana.barqai.agency/sitemap.xml
+Sitemap: https://lgxpuhastus.ee/sitemap.xml

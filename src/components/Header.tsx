@@ -1,22 +1,25 @@
 'use client';
 
-import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
-
-const navigation = [
-  { name: 'Services', href: '/services' },
-  { name: 'Pricing', href: '/pricing' },
-  { name: 'Calculator', href: '/calculator' },
-  { name: 'About', href: '/about' },
-  { name: 'Gallery', href: '/gallery' },
-  { name: 'Blog', href: '/blog' },
-  { name: 'Contact', href: '/contact' },
-];
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const t = useTranslations('navigation');
+
+  const navigation = [
+    { name: t('services'), href: '/services' },
+    { name: t('pricing'), href: '/pricing' },
+    { name: t('calculator'), href: '/calculator' },
+    { name: t('about'), href: '/about' },
+    { name: t('gallery'), href: '/gallery' },
+    { name: t('blog'), href: '/blog' },
+    { name: t('contact'), href: '/contact' },
+  ];
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
@@ -36,7 +39,8 @@ export default function Header() {
             </Link>
           </div>
           
-          <div className="flex lg:hidden">
+          <div className="flex lg:hidden items-center gap-2">
+            <LanguageSwitcher />
             <button
               type="button"
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-sage-700"
@@ -59,9 +63,10 @@ export default function Header() {
             ))}
           </div>
           
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:gap-4">
+            <LanguageSwitcher />
             <a
-              href="https://wa.me/372XXXXXXXX"
+              href="https://wa.me/37253955896"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-whatsapp text-sm"
@@ -113,7 +118,7 @@ export default function Header() {
               </div>
               <div className="py-6">
                 <a
-                  href="https://wa.me/372XXXXXXXX"
+                  href="https://wa.me/37253955896"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-whatsapp w-full text-center"

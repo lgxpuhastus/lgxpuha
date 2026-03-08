@@ -1,27 +1,20 @@
-import { Star } from 'lucide-react';
+'use client';
 
-const testimonials = [
-  {
-    name: 'Maria K.',
-    text: 'Ana and her team did an amazing job with our move-out cleaning. The apartment looked better than when we moved in. Highly recommend!',
-    rating: 5,
-    location: 'Kesklinn, Tallinn',
-  },
-  {
-    name: 'Johan S.',
-    text: 'We use LGX Puhastus for weekly cleaning and the consistency is excellent. Our home always feels fresh and welcoming.',
-    rating: 5,
-    location: 'Mustamae, Tallinn',
-  },
-  {
-    name: 'Elena R.',
-    text: 'Very professional and trustworthy. I feel comfortable leaving my keys with them. The attention to detail is impressive.',
-    rating: 5,
-    location: 'Pirita, Tallinn',
-  },
-];
+import { Star } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+
+const testimonialKeys = ['testimonial1', 'testimonial2', 'testimonial3'] as const;
 
 export default function Testimonials() {
+  const t = useTranslations('testimonials');
+
+  const testimonials = testimonialKeys.map((key) => ({
+    name: t(`${key}.name`),
+    text: t(`${key}.text`),
+    location: t(`${key}.location`),
+    rating: 5,
+  }));
+
   return (
     <div className="grid md:grid-cols-3 gap-6">
       {testimonials.map((testimonial, index) => (

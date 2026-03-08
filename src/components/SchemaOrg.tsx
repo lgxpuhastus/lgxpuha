@@ -1,12 +1,32 @@
-export default function SchemaOrg() {
+interface SchemaTranslations {
+  businessDescription: string;
+  serviceType: string;
+  offerCatalogName: string;
+  regularCleaningName: string;
+  regularCleaningDescription: string;
+  deepCleaningName: string;
+  deepCleaningDescription: string;
+  moveOutCleaningName: string;
+  moveOutCleaningDescription: string;
+}
+
+interface SchemaOrgProps {
+  locale: string;
+  translations: SchemaTranslations;
+}
+
+export default function SchemaOrg({ locale, translations }: SchemaOrgProps) {
+  const baseUrl = 'https://lgxpuhastus.ee';
+  const canonicalUrl = locale === 'et' ? baseUrl : `${baseUrl}/${locale}`;
+
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://ana.barqai.agency/#organization",
-    "name": "LGX Puhastus OU",
-    "description": "Professional cleaning services in Tallinn and Harjumaa. Regular cleaning, deep cleaning, move in/out cleaning, office cleaning, and more.",
-    "url": "https://ana.barqai.agency",
-    "telephone": "+372XXXXXXXX",
+    "@id": `${canonicalUrl}/#organization`,
+    "name": "LGX Puhastus OÜ",
+    "description": translations.businessDescription,
+    "url": canonicalUrl,
+    "telephone": "+37253955896",
     "email": "lgxpuhastusou@gmail.com",
     "address": {
       "@type": "PostalAddress",
@@ -36,10 +56,10 @@ export default function SchemaOrg() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Cleaning Service",
+    "serviceType": translations.serviceType,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "LGX Puhastus OU"
+      "name": "LGX Puhastus OÜ"
     },
     "areaServed": {
       "@type": "City",
@@ -47,30 +67,30 @@ export default function SchemaOrg() {
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Cleaning Services",
+      "name": translations.offerCatalogName,
       "itemListElement": [
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Regular Home Cleaning",
-            "description": "Professional maintenance cleaning to keep your home fresh and comfortable."
+            "name": translations.regularCleaningName,
+            "description": translations.regularCleaningDescription
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Deep Cleaning",
-            "description": "Detailed cleaning for homes that need extra care."
+            "name": translations.deepCleaningName,
+            "description": translations.deepCleaningDescription
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Move In/Out Cleaning",
-            "description": "Comprehensive cleaning for empty homes before moving in or after moving out."
+            "name": translations.moveOutCleaningName,
+            "description": translations.moveOutCleaningDescription
           }
         }
       ]
