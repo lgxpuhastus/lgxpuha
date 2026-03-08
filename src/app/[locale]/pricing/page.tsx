@@ -14,24 +14,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 const regularPrices = [
-  { key: 'studio', amount: 70 },
-  { key: '1bed', amount: 80 },
+  { key: 'studio', amount: 60 },
+  { key: '1bed', amount: 75 },
   { key: '2bed', amount: 90 },
   { key: '3bed', amount: 105 },
   { key: 'house', amount: 120 },
 ];
 
 const deepPrices = [
-  { key: 'studio', amount: 120 },
-  { key: '1bed', amount: 150 },
+  { key: 'studio', amount: 100 },
+  { key: '1bed', amount: 120 },
   { key: '2bed', amount: 180 },
   { key: '3bed', amount: 220 },
   { key: 'house', amount: 260 },
 ];
 
 const movePrices = [
-  { key: 'studio', amount: 150 },
-  { key: '1bed', amount: 180 },
+  { key: 'studio', amount: 120 },
+  { key: '1bed', amount: 150 },
   { key: '2bed', amount: 220 },
   { key: '3bed', amount: 260 },
   { key: 'house', amount: 320 },

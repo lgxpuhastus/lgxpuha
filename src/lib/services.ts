@@ -26,8 +26,8 @@ export const services: Record<string, ServiceData> = {
       'Trash removal and bin cleaning',
     ],
     pricing: [
-      { type: 'Studio', price: 'from 70 EUR' },
-      { type: '1 Bedroom', price: 'from 80 EUR' },
+      { type: 'Studio', price: 'from 60 EUR' },
+      { type: '1 Bedroom', price: 'from 75 EUR' },
       { type: '2 Bedroom', price: 'from 90 EUR' },
       { type: '3 Bedroom', price: 'from 105 EUR' },
       { type: 'House', price: 'from 120 EUR' },
@@ -50,8 +50,8 @@ export const services: Record<string, ServiceData> = {
       'Light fixture and ceiling fan dusting',
     ],
     pricing: [
-      { type: 'Studio', price: 'from 120 EUR' },
-      { type: '1 Bedroom', price: 'from 150 EUR' },
+      { type: 'Studio', price: 'from 100 EUR' },
+      { type: '1 Bedroom', price: 'from 120 EUR' },
       { type: '2 Bedroom', price: 'from 180 EUR' },
       { type: '3 Bedroom', price: 'from 220 EUR' },
       { type: 'House', price: 'from 260 EUR' },
@@ -75,8 +75,8 @@ export const services: Record<string, ServiceData> = {
       'Removal of dust from all corners and edges',
     ],
     pricing: [
-      { type: 'Studio', price: 'from 150 EUR' },
-      { type: '1 Bedroom', price: 'from 180 EUR' },
+      { type: 'Studio', price: 'from 120 EUR' },
+      { type: '1 Bedroom', price: 'from 150 EUR' },
       { type: '2 Bedroom', price: 'from 220 EUR' },
       { type: '3 Bedroom', price: 'from 260 EUR' },
       { type: 'House', price: 'from 320 EUR' },
