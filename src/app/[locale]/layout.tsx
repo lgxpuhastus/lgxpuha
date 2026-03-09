@@ -120,6 +120,16 @@ export default async function LocaleLayout({
       <head>
         <SchemaOrg locale={locale} translations={schemaTranslations} />
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        {/* Google Ads / gtag.js */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17682204148"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17682204148');
+          `
+        }} />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>
       </head>
       <body className={`${inter.variable} font-sans`}>
