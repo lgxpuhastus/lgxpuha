@@ -5,11 +5,12 @@ import { Calculator as CalcIcon, MessageCircle } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 const propertyData = [
-  { value: 'studio', regularPrice: 60, deepPrice: 100, movePrice: 120 },
-  { value: '1bed', regularPrice: 75, deepPrice: 120, movePrice: 150 },
-  { value: '2bed', regularPrice: 90, deepPrice: 180, movePrice: 220 },
-  { value: '3bed', regularPrice: 105, deepPrice: 220, movePrice: 260 },
-  { value: 'house', regularPrice: 120, deepPrice: 260, movePrice: 320 },
+  { value: 'up30', regularPrice: 60, deepPrice: 120, movePrice: 100 },
+  { value: '30to45', regularPrice: 75, deepPrice: 150, movePrice: 145 },
+  { value: '45to60', regularPrice: 90, deepPrice: 200, movePrice: 195 },
+  { value: '60to80', regularPrice: 110, deepPrice: 265, movePrice: 260 },
+  { value: '80to100', regularPrice: 130, deepPrice: 330, movePrice: 325 },
+  { value: '100plus', regularPrice: 150, deepPrice: 330, movePrice: null },
 ];
 
 const serviceData = [
@@ -41,21 +42,21 @@ export default function Calculator() {
     label: t(`serviceTypes.${s.value}`),
   }));
 
-  const calculatePrice = () => {
+  const calculatePrice = (): number | null => {
     if (!propertyType || !serviceType) return null;
-    
+
     const property = propertyData.find(p => p.value === propertyType);
     const service = serviceData.find(s => s.value === serviceType);
-    
+
     if (!property || !service) return null;
-    
+
     return property[service.priceKey];
   };
 
   const price = calculatePrice();
 
   const handleGetQuote = () => {
-    if (price) {
+    if (propertyType && serviceType) {
       setShowForm(true);
     }
   };
@@ -109,12 +110,18 @@ export default function Calculator() {
           </select>
         </div>
 
-        {price && (
+        {propertyType && serviceType && (
           <div className="bg-sage-50 rounded-lg p-6 text-center">
             <p className="text-sage-600 mb-2">{t('estimatedPrice')}</p>
-            <p className="text-4xl font-bold text-sage-900">
-              {tCommon('from')} {price} EUR
-            </p>
+            {price ? (
+              <p className="text-4xl font-bold text-sage-900">
+                {tCommon('from')} {price} EUR
+              </p>
+            ) : (
+              <p className="text-xl font-bold text-sage-900">
+                {tCommon('contactUs')}
+              </p>
+            )}
             <p className="text-sm text-sage-500 mt-2">
               {t('priceNote')}
             </p>
@@ -158,7 +165,7 @@ export default function Calculator() {
         ) : (
           <button
             onClick={handleGetQuote}
-            disabled={!price}
+            disabled={!propertyType || !serviceType}
             className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {tCommon('getQuote')}

@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 const serviceData = [
   { key: 'regular', href: '/services/regular-cleaning', icon: Home, priceAmount: 60, image: '/images/kitchen-clean.jpg' },
-  { key: 'deep', href: '/services/deep-cleaning', icon: Sparkles, priceAmount: 100, image: '/images/bathroom-clean.jpg' },
-  { key: 'moveOut', href: '/services/move-out-cleaning', icon: Truck, priceAmount: 120, image: '/images/moveout-clean.jpg' },
+  { key: 'deep', href: '/services/deep-cleaning', icon: Sparkles, priceAmount: 120, image: '/images/bathroom-clean.jpg' },
+  { key: 'moveOut', href: '/services/move-out-cleaning', icon: Truck, priceAmount: 100, image: '/images/moveout-clean.jpg' },
   { key: 'office', href: '/services/office-cleaning', icon: Building2, priceAmount: null, image: '/images/office-clean.jpg' },
   { key: 'upholstery', href: '/services/upholstery-cleaning', icon: Sofa, priceAmount: null, image: '/images/sofa-clean.jpg' },
   { key: 'window', href: '/services/window-cleaning', icon: Square, priceAmount: null, image: '/images/windows-clean.jpg' },

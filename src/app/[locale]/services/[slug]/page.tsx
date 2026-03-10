@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { CheckCircle, Phone, ArrowLeft, ChevronDown } from 'lucide-react';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
+import Disclaimer from '@/components/Disclaimer';
 
 // Map URL slugs to translation keys
 const slugToKey: Record<string, string> = {
@@ -16,9 +17,9 @@ const slugToKey: Record<string, string> = {
 
 // Pricing keys for each service type
 const pricingKeys: Record<string, string[]> = {
-  regular: ['studio', '1bed', '2bed', '3bed', 'house'],
-  deep: ['studio', '1bed', '2bed', '3bed', 'house'],
-  moveOut: ['studio', '1bed', '2bed', '3bed', 'house'],
+  regular: ['up30', '30to45', '45to60', '60to80', '80to100', '100plus'],
+  deep: ['up30', '30to45', '45to60', '60to80', '80to100', '100plus'],
+  moveOut: ['up30', '30to45', '45to60', '60to80', '80to100'],
   office: ['small', 'medium', 'large'],
   upholstery: ['sofa2', 'sofa3', 'armchair', 'mattress'],
   window: ['perWindow', 'apartment', 'house'],
@@ -227,9 +228,19 @@ export default async function ServicePage({ params }: Props) {
                   </div>
                 ))}
               </div>
-              <p className="text-sm text-sage-500 mb-6">
+              <p className="text-sm text-sage-500 mb-4">
                 {t('pricing.discountNote')}
               </p>
+              <div className="mb-6 space-y-2">
+                {serviceKey === 'moveOut' ? (
+                  <>
+                    <Disclaimer text={t('pricing.disclaimers.moveOut')} variant="warning" compact />
+                    <Disclaimer text={t('pricing.disclaimers.emptyProperty')} variant="info" compact />
+                  </>
+                ) : (serviceKey === 'regular' || serviceKey === 'deep') && (
+                  <Disclaimer text={t('pricing.disclaimers.condition')} variant="neutral" compact />
+                )}
+              </div>
               <div className="space-y-4">
                 <Link href="/calculator" className="btn-primary w-full text-center">
                   {tCommon('getQuote')}

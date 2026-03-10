@@ -3,6 +3,7 @@ import { Phone } from 'lucide-react';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import PricingTable from '@/components/PricingTable';
+import Disclaimer from '@/components/Disclaimer';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -14,27 +15,29 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 const regularPrices = [
-  { key: 'studio', amount: 60 },
-  { key: '1bed', amount: 75 },
-  { key: '2bed', amount: 90 },
-  { key: '3bed', amount: 105 },
-  { key: 'house', amount: 120 },
+  { key: 'up30', amount: 60 },
+  { key: '30to45', amount: 75 },
+  { key: '45to60', amount: 90 },
+  { key: '60to80', amount: 110 },
+  { key: '80to100', amount: 130 },
+  { key: '100plus', amount: 150, from: true },
 ];
 
 const deepPrices = [
-  { key: 'studio', amount: 100 },
-  { key: '1bed', amount: 120 },
-  { key: '2bed', amount: 180 },
-  { key: '3bed', amount: 220 },
-  { key: 'house', amount: 260 },
+  { key: 'up30', amount: 120 },
+  { key: '30to45', amount: 150 },
+  { key: '45to60', amount: 200 },
+  { key: '60to80', amount: 265 },
+  { key: '80to100', amount: 330 },
+  { key: '100plus', amount: 330, from: true },
 ];
 
 const movePrices = [
-  { key: 'studio', amount: 120 },
-  { key: '1bed', amount: 150 },
-  { key: '2bed', amount: 220 },
-  { key: '3bed', amount: 260 },
-  { key: 'house', amount: 320 },
+  { key: 'up30', amount: 100 },
+  { key: '30to45', amount: 145 },
+  { key: '45to60', amount: 195 },
+  { key: '60to80', amount: 260 },
+  { key: '80to100', amount: 325 },
 ];
 
 export default async function PricingPage({
@@ -50,17 +53,21 @@ export default async function PricingPage({
 
   const regularCleaning = regularPrices.map((item) => ({
     name: t(`propertyTypes.${item.key}`),
-    price: `${tCommon('from')} ${item.amount} ${tCommon('eur')}`,
+    price: item.from
+      ? `${tCommon('from')} ${item.amount} ${tCommon('eur')}`
+      : `${item.amount} ${tCommon('eur')}`,
   }));
 
   const deepCleaning = deepPrices.map((item) => ({
     name: t(`propertyTypes.${item.key}`),
-    price: `${tCommon('from')} ${item.amount} ${tCommon('eur')}`,
+    price: item.from
+      ? `${tCommon('from')} ${item.amount} ${tCommon('eur')}`
+      : `${item.amount} ${tCommon('eur')}`,
   }));
 
   const moveOutCleaning = movePrices.map((item) => ({
     name: t(`propertyTypes.${item.key}`),
-    price: `${tCommon('from')} ${item.amount} ${tCommon('eur')}`,
+    price: `${item.amount} ${tCommon('eur')}`,
   }));
 
   const goodToKnowItems = t.raw('goodToKnowItems') as string[];
@@ -85,19 +92,29 @@ export default async function PricingPage({
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="grid md:grid-cols-3 gap-8">
-            <PricingTable
-              title={t('regularCleaning')}
-              items={regularCleaning}
-            />
-            <PricingTable
-              title={t('deepCleaning')}
-              items={deepCleaning}
-              highlighted
-            />
-            <PricingTable
-              title={t('moveOutCleaning')}
-              items={moveOutCleaning}
-            />
+            <div className="space-y-3">
+              <PricingTable
+                title={t('regularCleaning')}
+                items={regularCleaning}
+              />
+              <Disclaimer text={t('disclaimers.condition')} variant="neutral" compact />
+            </div>
+            <div className="space-y-3">
+              <PricingTable
+                title={t('deepCleaning')}
+                items={deepCleaning}
+                highlighted
+              />
+              <Disclaimer text={t('disclaimers.condition')} variant="neutral" compact />
+            </div>
+            <div className="space-y-3">
+              <PricingTable
+                title={t('moveOutCleaning')}
+                items={moveOutCleaning}
+              />
+              <Disclaimer text={t('disclaimers.moveOut')} variant="warning" compact />
+              <Disclaimer text={t('disclaimers.emptyProperty')} variant="info" compact />
+            </div>
           </div>
 
           <div className="mt-12 max-w-3xl mx-auto">

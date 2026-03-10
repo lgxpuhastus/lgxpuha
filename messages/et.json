@@ -240,26 +240,33 @@
     "pricing": {
       "title": "Hinnad",
       "discountNote": "Soodushinnad püsiklientidele (iganädalane/kahenädalane).",
+      "disclaimers": {
+        "condition": "Lõpphind võib varieeruda sõltuvalt kinnisvara seisundist.",
+        "moveOut": "Lõpphind võib varieeruda sõltuvalt kinnisvara suurusest ja seisundist. Lisatasud võivad kehtida tugevalt määrdunud kinnisvarale või korteritele, mis ületavad kategooria tavapärast suurust. Loetletud suurustest suuremaid kortereid võidakse arvestada m² alusel.",
+        "emptyProperty": "Kolimiskoristuse jaoks peab kinnisvara olema tühi."
+      },
       "regular": {
-        "studio": { "type": "Stuudio", "price": "alates 60 EUR" },
-        "1bed": { "type": "1-toaline", "price": "alates 75 EUR" },
-        "2bed": { "type": "2-toaline", "price": "alates 90 EUR" },
-        "3bed": { "type": "3-toaline", "price": "alates 105 EUR" },
-        "house": { "type": "Maja", "price": "alates 120 EUR" }
+        "up30": { "type": "Kuni 30 m²", "price": "60 EUR" },
+        "30to45": { "type": "30–45 m²", "price": "75 EUR" },
+        "45to60": { "type": "45–60 m²", "price": "90 EUR" },
+        "60to80": { "type": "60–80 m²", "price": "110 EUR" },
+        "80to100": { "type": "80–100 m²", "price": "130 EUR" },
+        "100plus": { "type": "100 m²+", "price": "alates 150 EUR" }
       },
       "deep": {
-        "studio": { "type": "Stuudio", "price": "alates 100 EUR" },
-        "1bed": { "type": "1-toaline", "price": "alates 120 EUR" },
-        "2bed": { "type": "2-toaline", "price": "alates 180 EUR" },
-        "3bed": { "type": "3-toaline", "price": "alates 220 EUR" },
-        "house": { "type": "Maja", "price": "alates 260 EUR" }
+        "up30": { "type": "Kuni 30 m²", "price": "120 EUR" },
+        "30to45": { "type": "30–45 m²", "price": "150 EUR" },
+        "45to60": { "type": "45–60 m²", "price": "200 EUR" },
+        "60to80": { "type": "60–80 m²", "price": "265 EUR" },
+        "80to100": { "type": "80–100 m²", "price": "330 EUR" },
+        "100plus": { "type": "100 m²+", "price": "alates 330 EUR" }
       },
       "moveOut": {
-        "studio": { "type": "Stuudio", "price": "alates 120 EUR" },
-        "1bed": { "type": "1-toaline", "price": "alates 150 EUR" },
-        "2bed": { "type": "2-toaline", "price": "alates 220 EUR" },
-        "3bed": { "type": "3-toaline", "price": "alates 260 EUR" },
-        "house": { "type": "Maja", "price": "alates 320 EUR" }
+        "up30": { "type": "Kuni 30 m²", "price": "100 EUR" },
+        "30to45": { "type": "30–45 m²", "price": "145 EUR" },
+        "45to60": { "type": "45–60 m²", "price": "195 EUR" },
+        "60to80": { "type": "60–80 m²", "price": "260 EUR" },
+        "80to100": { "type": "80–100 m²", "price": "325 EUR" }
       },
       "office": {
         "small": { "type": "Väike kontor", "price": "Võta ühendust" },
@@ -288,7 +295,7 @@
   },
   "pricing": {
     "metaTitle": "Hinnad",
-    "metaDescription": "Läbipaistev kindel hinnastamine kõigi meie koristusteenuste jaoks. Varjatud tasud puuduvad. Regulaarne koristus alates 70 EUR, süvapuhastus alates 120 EUR.",
+    "metaDescription": "Läbipaistev kindel hinnastamine kõigi meie koristusteenuste jaoks. Varjatud tasud puuduvad. Regulaarne koristus alates 60 EUR, süvapuhastus alates 120 EUR.",
     "pageTitle": "Lihtne, läbipaistev hinnastamine",
     "pageDescription": "Varjatud tasudeta, üllatusteta. Meie kindla hinnaga süsteem teeb lihtsaks teada, mida sa täpselt maksad.",
     "regularCleaning": "Regulaarne koristus",
@@ -308,11 +315,17 @@
     "ctaDescription": "Kasuta meie kalkulaatorit kohese hinnangu saamiseks või võta meiega otse ühendust.",
     "useCalculator": "Kasuta kalkulaatorit",
     "propertyTypes": {
-      "studio": "Stuudio",
-      "1bed": "1-toaline",
-      "2bed": "2-toaline",
-      "3bed": "3-toaline",
-      "house": "Maja"
+      "up30": "Kuni 30 m²",
+      "30to45": "30–45 m²",
+      "45to60": "45–60 m²",
+      "60to80": "60–80 m²",
+      "80to100": "80–100 m²",
+      "100plus": "100 m²+"
+    },
+    "disclaimers": {
+      "condition": "Lõpphind võib varieeruda sõltuvalt kinnisvara seisundist.",
+      "moveOut": "Lõpphind võib varieeruda sõltuvalt kinnisvara suurusest ja seisundist. Lisatasud võivad kehtida tugevalt määrdunud kinnisvarale või korteritele, mis ületavad kategooria tavapärast suurust. Loetletud suurustest suuremaid kortereid võidakse arvestada m² alusel.",
+      "emptyProperty": "Kolimiskoristuse jaoks peab kinnisvara olema tühi."
     },
     "discountNote": "Soodushinnad püsiklientidele (iganädalane/kahenädalane)."
   },
@@ -452,11 +465,12 @@
     "seeFullPricing": "Vaata täielikku hinnastamist",
     "whatsappMessage": "Tere! Olen huvitatud teenusest {service} oma {property} jaoks. Hinnanguline hind: alates {price} EUR.",
     "propertyTypes": {
-      "studio": "Stuudio",
-      "1bed": "1-toaline",
-      "2bed": "2-toaline",
-      "3bed": "3-toaline",
-      "house": "Maja"
+      "up30": "Kuni 30 m²",
+      "30to45": "30–45 m²",
+      "45to60": "45–60 m²",
+      "60to80": "60–80 m²",
+      "80to100": "80–100 m²",
+      "100plus": "100 m²+"
     },
     "serviceTypes": {
       "regular": "Regulaarne koristus",
