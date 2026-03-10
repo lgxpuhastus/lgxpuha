@@ -116,7 +116,7 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         <SchemaOrg locale={locale} translations={schemaTranslations} />
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -132,7 +132,7 @@ export default async function LocaleLayout({
         }} />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>
       </head>
-      <body className={`${inter.variable} font-sans`}>
+      <body className={`${inter.variable} font-sans`} suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="min-h-screen">{children}</main>
