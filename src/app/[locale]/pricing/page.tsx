@@ -92,29 +92,25 @@ export default async function PricingPage({
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="space-y-3">
-              <PricingTable
-                title={t('regularCleaning')}
-                items={regularCleaning}
-              />
-              <Disclaimer text={t('disclaimers.condition')} variant="neutral" compact />
-            </div>
-            <div className="space-y-3">
-              <PricingTable
-                title={t('deepCleaning')}
-                items={deepCleaning}
-                highlighted
-              />
-              <Disclaimer text={t('disclaimers.condition')} variant="neutral" compact />
-            </div>
-            <div className="space-y-3">
-              <PricingTable
-                title={t('moveOutCleaning')}
-                items={moveOutCleaning}
-              />
-              <Disclaimer text={t('disclaimers.moveOut')} variant="warning" compact />
-              <Disclaimer text={t('disclaimers.emptyProperty')} variant="info" compact />
-            </div>
+            <PricingTable
+              title={t('regularCleaning')}
+              items={regularCleaning}
+            />
+            <PricingTable
+              title={t('deepCleaning')}
+              items={deepCleaning}
+              highlighted
+            />
+            <PricingTable
+              title={t('moveOutCleaning')}
+              items={moveOutCleaning}
+            />
+          </div>
+
+          <div className="mt-6 max-w-3xl mx-auto space-y-3">
+            <Disclaimer text={t('disclaimers.condition')} variant="neutral" />
+            <Disclaimer text={t('disclaimers.moveOut')} variant="warning" />
+            <Disclaimer text={t('disclaimers.emptyProperty')} variant="info" />
           </div>
 
           <div className="mt-12 max-w-3xl mx-auto">
